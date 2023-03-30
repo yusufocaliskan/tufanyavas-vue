@@ -1,6 +1,11 @@
 <template>
   <div>
-    <h2>Home view!</h2>
+    <pre>{{ links }}</pre>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import { computed } from "vue";
+import store from "../store";
+
+const links = computed(() => store.state.links);
+</script>

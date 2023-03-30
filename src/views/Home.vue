@@ -109,7 +109,7 @@
         </div>
       </div>
     </div>
-    <div>sss</div>
+
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton
@@ -129,6 +129,32 @@
       </div>
     </DisclosurePanel>
   </Disclosure>
+
+  <div id="content" class="flex flex-wrap">
+    <div
+      class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen bg-red-500"
+    >
+      <div
+        class="conten-menu flex w-full lg:w-1/5 md:w-1/5 xl:w-1/5 bg-green-600"
+      >
+        <ul>
+          <li><a href="#">ALL FAV</a></li>
+        </ul>
+      </div>
+      <!-- content:menu -->
+      <div
+        class="main-content flex w-full lg:w-4/5 md:w-4/5 xl:w-4/5 bg-yellow-400"
+      >
+        CONTENT
+      </div>
+      <!-- main:content -->
+    </div>
+    <div
+      class="right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen bg-blue-700"
+    >
+      RIGHT
+    </div>
+  </div>
 </template>
 
 <script setup>

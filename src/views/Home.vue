@@ -235,9 +235,9 @@
               </ul>
             </div>
           </div>
-          <div class="content-right p-5 w-full h-screen overflow-y-auto">
+          <div class="content-right p-10 w-full h-screen overflow-y-auto">
             <div class="post-section">
-              <div class="post flex">
+              <div class="post flex border-b-[1px] pb-10">
                 <div class="post-left w-full">
                   <div class="post-title flex items-center">
                     <h1 class="text-xl font-bold">EURUSD</h1>
@@ -278,313 +278,353 @@
                     <span>4 days ago</span>
                   </div>
                   <div class="post-body text-gray-700">
-                    <div class="post-right flex w-full">
-                      <div class="post-graphic-tabs">
-                        <ul class="flex-wrap">
-                          <li
-                            class="w-[115px] border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                    <ul class="flex-wrap">
+                      <li
+                        class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      >
+                        <div class="tab-left w-2/3 flex flex-col">
+                          <span class="text-xs font-bold">4H</span>
+                          <span class="text-xs font-thin">1d</span>
+                        </div>
+
+                        <div class="tab-right w-1/3 relative">
+                          <span
+                            class="tab-information shadow-md z-50 hidden absolute text-xs text-gray-600 top-5 left-[-50px] rounded p-2 w-[180px] border-[1px] bg-white"
+                            >Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed ac lacus auctor Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit.</span
                           >
-                            <div class="tab-left w-2/3 flex flex-col">
-                              <span class="text-xs font-bold">4H</span>
-                              <span class="text-xs font-thin text-gray-500"
-                                >1d</span
-                              >
-                            </div>
-
-                            <div class="tab-right w-1/3">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="16"
-                                viewBox="0 0 26 26"
-                                class="mdl-js"
-                              >
-                                <g
-                                  fill="none"
-                                  fill-rule="evenodd"
-                                  stroke="#353B40"
-                                  stroke-width="2.028"
-                                >
-                                  <path
-                                    d="M0 0L6.986 0 6.986 6.901"
-                                    transform="translate(17 11)"
-                                  />
-                                  <path d="M0.241 4L15.127 20.227 24 11" />
-                                </g>
-                              </svg>
-                            </div>
-                          </li>
-
-                          <li
-                            class="w-[115px] border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 26 26"
+                            class="mdl-js"
                           >
-                            <div class="tab-left w-2/3 flex flex-col">
-                              <span class="text-xs font-bold">4H</span>
-                              <span class="text-xs font-thin text-gray-500"
-                                >1d</span
-                              >
-                            </div>
+                            <g
+                              fill="none"
+                              fill-rule="evenodd"
+                              stroke="#353B40"
+                              stroke-width="2.028"
+                            >
+                              <path
+                                d="M0 0L6.986 0 6.986 6.901"
+                                transform="translate(17 11)"
+                              />
+                              <path d="M0.241 4L15.127 20.227 24 11" />
+                            </g>
+                          </svg>
+                        </div>
+                      </li>
 
-                            <div class="tab-right w-1/3">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="15"
-                                height="15"
-                                viewBox="0 0 15 15"
-                                class="mdl-js"
-                              >
-                                <g
-                                  fill="none"
-                                  fill-rule="evenodd"
-                                  stroke="#353B40"
-                                  stroke-width="1.17"
-                                >
-                                  <path d="M10 4h4.03v3.981" />
-                                  <path d="M.139 9.362h8.588l5.12-5.324" />
-                                </g>
-                              </svg>
-                            </div>
-                          </li>
-                          <li
-                            class="w-[115px] border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      <li
+                        class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      >
+                        <div class="tab-left w-2/3 flex flex-col">
+                          <span class="text-xs font-bold">4H</span>
+                          <span class="text-xs font-thin">1d</span>
+                        </div>
+
+                        <div class="tab-right relative w-1/3">
+                          <span
+                            class="tab-information shadow-md z-50 hidden absolute text-xs text-gray-600 top-5 left-[-50px] rounded p-2 w-[180px] border-[1px] bg-white"
+                            >Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sed ac lacus auctor Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit.</span
                           >
-                            <div class="tab-left w-2/3 flex flex-col">
-                              <span class="text-xs font-bold">4H</span>
-                              <span class="text-xs font-thin text-gray-500"
-                                >1d</span
-                              >
-                            </div>
-
-                            <div class="tab-right w-1/3">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="17"
-                                height="17"
-                                viewBox="0 0 15 15"
-                                class="mdl-js"
-                              >
-                                <g
-                                  fill="none"
-                                  fill-rule="evenodd"
-                                  stroke="#353B40"
-                                  stroke-width="1.17"
-                                >
-                                  <path
-                                    d="M0 0L4.03 0 4.03 3.981"
-                                    transform="rotate(45 -.243 17.071)"
-                                  />
-                                  <path d="M15 7.788L0 7.788" />
-                                </g>
-                              </svg>
-                            </div>
-                          </li>
-                          <li
-                            class="w-[115px] border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15"
+                            height="15"
+                            viewBox="0 0 15 15"
+                            class="mdl-js"
                           >
-                            <div class="tab-left w-2/3 flex flex-col">
-                              <span class="text-xs font-bold">4H</span>
-                              <span class="text-xs font-thin text-gray-500"
-                                >1d</span
-                              >
-                            </div>
+                            <g
+                              fill="none"
+                              fill-rule="evenodd"
+                              stroke="#353B40"
+                              stroke-width="1.17"
+                            >
+                              <path d="M10 4h4.03v3.981" />
+                              <path d="M.139 9.362h8.588l5.12-5.324" />
+                            </g>
+                          </svg>
+                        </div>
+                      </li>
+                      <li
+                        class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      >
+                        <div class="tab-left w-2/3 flex flex-col">
+                          <span class="text-xs font-bold">4H</span>
+                          <span class="text-xs font-thin">1d</span>
+                        </div>
 
-                            <div class="tab-right w-1/3">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="15"
-                                height="15"
-                                viewBox="0 0 15 15"
-                                class="mdl-js"
-                              >
-                                <g
-                                  fill="none"
-                                  fill-rule="evenodd"
-                                  stroke="#353B40"
-                                  stroke-width="1.17"
-                                >
-                                  <path
-                                    d="M0 0L4.03 0 4.03 3.981"
-                                    transform="translate(8 3)"
-                                  />
-                                  <path d="M12.106 2.885L2.809 12.182" />
-                                </g>
-                              </svg>
-                            </div>
-                          </li>
-                          <li
-                            class="w-[115px] border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                        <div class="tab-right relative w-1/3">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="17"
+                            height="17"
+                            viewBox="0 0 15 15"
+                            class="mdl-js"
                           >
-                            <div class="tab-left w-2/3 flex flex-col">
-                              <span class="text-xs font-bold">4H</span>
-                              <span class="text-xs font-thin text-gray-500"
-                                >1d</span
-                              >
-                            </div>
+                            <g
+                              fill="none"
+                              fill-rule="evenodd"
+                              stroke="#353B40"
+                              stroke-width="1.17"
+                            >
+                              <path
+                                d="M0 0L4.03 0 4.03 3.981"
+                                transform="rotate(45 -.243 17.071)"
+                              />
+                              <path d="M15 7.788L0 7.788" />
+                            </g>
+                          </svg>
+                        </div>
+                      </li>
+                      <li
+                        class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      >
+                        <div class="tab-left w-2/3 flex flex-col">
+                          <span class="text-xs font-bold">4H</span>
+                          <span class="text-xs font-thin">1d</span>
+                        </div>
 
-                            <div class="tab-right w-1/3">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="15"
-                                height="15"
-                                viewBox="0 0 15 15"
-                                class="mdl-js"
-                              >
-                                <g
-                                  fill="none"
-                                  fill-rule="evenodd"
-                                  stroke="#353B40"
-                                  stroke-width="1.17"
-                                >
-                                  <path
-                                    d="M0.139 11.378L5.032 6.313 8.727 9.362 13.846 4.038"
-                                  />
-                                  <path
-                                    d="M0 0L4.03 0 4.03 3.981"
-                                    transform="translate(10 4)"
-                                  />
-                                </g>
-                              </svg>
-                            </div>
-                          </li>
-                          <li
-                            class="w-[115px] border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                        <div class="tab-right relative w-1/3">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15"
+                            height="15"
+                            viewBox="0 0 15 15"
+                            class="mdl-js"
                           >
-                            <div class="tab-left w-2/3 flex flex-col">
-                              <span class="text-xs font-bold">4H</span>
-                              <span class="text-xs font-thin text-gray-500"
-                                >1d</span
-                              >
-                            </div>
+                            <g
+                              fill="none"
+                              fill-rule="evenodd"
+                              stroke="#353B40"
+                              stroke-width="1.17"
+                            >
+                              <path
+                                d="M0 0L4.03 0 4.03 3.981"
+                                transform="translate(8 3)"
+                              />
+                              <path d="M12.106 2.885L2.809 12.182" />
+                            </g>
+                          </svg>
+                        </div>
+                      </li>
+                      <li
+                        class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      >
+                        <div class="tab-left w-2/3 flex flex-col">
+                          <span class="text-xs font-bold">4H</span>
+                          <span class="text-xs font-thin">1d</span>
+                        </div>
 
-                            <div class="tab-right w-1/3">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="15px"
-                                height="7px"
-                                viewBox="0 0 15 7"
-                                version="1.1"
-                                class="mdl-js"
-                              >
-                                <g
-                                  id="Page-1"
-                                  stroke="none"
-                                  stroke-width="1"
-                                  fill="none"
-                                  fill-rule="evenodd"
-                                >
-                                  <g
-                                    id="bias3"
-                                    transform="translate(7.500000, 3.000000) scale(1, -1) translate(-7.500000, -3.000000) "
-                                    stroke="#353B40"
-                                    stroke-width="1.17"
-                                  >
-                                    <polyline
-                                      id="Path"
-                                      points="10 0 14.03 0 14.03 3.981"
-                                    />
-                                    <polyline
-                                      id="Path"
-                                      points="0.139 5.362 8.727 5.362 13.847 0.038"
-                                    />
-                                  </g>
-                                </g>
-                              </svg>
-                            </div>
-                          </li>
-                          <li
-                            class="w-[115px] border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                        <div class="tab-right relative w-1/3">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15"
+                            height="15"
+                            viewBox="0 0 15 15"
+                            class="mdl-js"
                           >
-                            <div class="tab-left w-2/3 flex flex-col">
-                              <span class="text-xs font-bold">4H</span>
-                              <span class="text-xs font-thin text-gray-500"
-                                >1d</span
-                              >
-                            </div>
+                            <g
+                              fill="none"
+                              fill-rule="evenodd"
+                              stroke="#353B40"
+                              stroke-width="1.17"
+                            >
+                              <path
+                                d="M0.139 11.378L5.032 6.313 8.727 9.362 13.846 4.038"
+                              />
+                              <path
+                                d="M0 0L4.03 0 4.03 3.981"
+                                transform="translate(10 4)"
+                              />
+                            </g>
+                          </svg>
+                        </div>
+                      </li>
+                      <li
+                        class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      >
+                        <div class="tab-left w-2/3 flex flex-col">
+                          <span class="text-xs font-bold">4H</span>
+                          <span class="text-xs font-thin">1d</span>
+                        </div>
 
-                            <div class="tab-right w-1/3">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="16px"
-                                height="9px"
-                                viewBox="0 0 16 9"
-                                version="1.1"
-                                class="mdl-js"
-                              >
-                                <g
-                                  id="Page-1"
-                                  stroke="none"
-                                  stroke-width="1"
-                                  fill="none"
-                                  fill-rule="evenodd"
-                                >
-                                  <g
-                                    id="bias2"
-                                    transform="translate(8.500000, 4.000000) scale(1, -1) translate(-8.500000, -4.000000) translate(1.000000, 0.000000)"
-                                    stroke="#353B40"
-                                    stroke-width="1.17"
-                                  >
-                                    <polyline
-                                      id="Path"
-                                      points="0.139 7.378 5.032 2.313 8.727 5.362 13.846 0.038"
-                                    />
-                                    <polyline
-                                      id="Path"
-                                      points="10 0 14.03 0 14.03 3.981"
-                                    />
-                                  </g>
-                                </g>
-                              </svg>
-                            </div>
-                          </li>
-                          <li
-                            class="w-[115px] border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                        <div class="tab-right relative w-1/3">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="15px"
+                            height="7px"
+                            viewBox="0 0 15 7"
+                            version="1.1"
+                            class="mdl-js"
                           >
-                            <div class="tab-left w-2/3 flex flex-col">
-                              <span class="text-xs font-bold">4H</span>
-                              <span class="text-xs font-thin text-gray-500"
-                                >1d</span
+                            <g
+                              id="Page-1"
+                              stroke="none"
+                              stroke-width="1"
+                              fill="none"
+                              fill-rule="evenodd"
+                            >
+                              <g
+                                id="bias3"
+                                transform="translate(7.500000, 3.000000) scale(1, -1) translate(-7.500000, -3.000000) "
+                                stroke="#353B40"
+                                stroke-width="1.17"
                               >
-                            </div>
+                                <polyline
+                                  id="Path"
+                                  points="10 0 14.03 0 14.03 3.981"
+                                />
+                                <polyline
+                                  id="Path"
+                                  points="0.139 5.362 8.727 5.362 13.847 0.038"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </li>
+                      <li
+                        class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      >
+                        <div class="tab-left w-2/3 flex flex-col">
+                          <span class="text-xs font-bold">4H</span>
+                          <span class="text-xs font-thin">1d</span>
+                        </div>
 
-                            <div class="tab-right w-1/3">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="16px"
-                                height="12px"
-                                viewBox="0 0 16 12"
-                                version="1.1"
-                                class="mdl-js"
+                        <div class="tab-right relative w-1/3">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="16px"
+                            height="9px"
+                            viewBox="0 0 16 9"
+                            version="1.1"
+                            class="mdl-js"
+                          >
+                            <g
+                              id="Page-1"
+                              stroke="none"
+                              stroke-width="1"
+                              fill="none"
+                              fill-rule="evenodd"
+                            >
+                              <g
+                                id="bias2"
+                                transform="translate(8.500000, 4.000000) scale(1, -1) translate(-8.500000, -4.000000) translate(1.000000, 0.000000)"
+                                stroke="#353B40"
+                                stroke-width="1.17"
                               >
-                                <g
-                                  id="Page-1"
-                                  stroke="none"
-                                  stroke-width="1"
-                                  fill="none"
-                                  fill-rule="evenodd"
-                                >
-                                  <g
-                                    id="bias4"
-                                    transform="translate(8.500000, 6.000000) scale(1, -1) translate(-8.500000, -6.000000) translate(1.000000, 1.000000)"
-                                    stroke="#353B40"
-                                    stroke-width="1.17"
-                                  >
-                                    <polyline
-                                      id="Path"
-                                      points="10 4 14.03 4 14.03 7.981"
-                                    />
-                                    <polyline
-                                      id="Path"
-                                      points="0.139 0.308 8.727 9.669 13.847 4.346"
-                                    />
-                                  </g>
-                                </g>
-                              </svg>
-                            </div>
-                          </li>
-                        </ul>
+                                <polyline
+                                  id="Path"
+                                  points="0.139 7.378 5.032 2.313 8.727 5.362 13.846 0.038"
+                                />
+                                <polyline
+                                  id="Path"
+                                  points="10 0 14.03 0 14.03 3.981"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </li>
+                      <li
+                        class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
+                      >
+                        <div class="tab-left w-2/3 flex flex-col">
+                          <span class="text-xs font-bold">4H</span>
+                          <span class="text-xs font-thin">1d</span>
+                        </div>
+
+                        <div class="tab-right relative w-1/3">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="16px"
+                            height="12px"
+                            viewBox="0 0 16 12"
+                            version="1.1"
+                            class="mdl-js"
+                          >
+                            <g
+                              id="Page-1"
+                              stroke="none"
+                              stroke-width="1"
+                              fill="none"
+                              fill-rule="evenodd"
+                            >
+                              <g
+                                id="bias4"
+                                transform="translate(8.500000, 6.000000) scale(1, -1) translate(-8.500000, -6.000000) translate(1.000000, 1.000000)"
+                                stroke="#353B40"
+                                stroke-width="1.17"
+                              >
+                                <polyline
+                                  id="Path"
+                                  points="10 4 14.03 4 14.03 7.981"
+                                />
+                                <polyline
+                                  id="Path"
+                                  points="0.139 0.308 8.727 9.669 13.847 4.346"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+
+                    <div class="post-graphic">
+                      <img
+                        src="https://wavetraders-production.s3.eu-west-1.amazonaws.com/bklu5gaorit670c21tqkkvqpfuck?response-content-disposition=inline%3B%20filename%3D%22usdchf%20mar%2031%202023%204h.png%22%3B%20filename%2A%3DUTF-8%27%27usdchf%2520mar%252031%25202023%25204h.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVWVWJYUVMQLQQOO2%2F20230331%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230331T190313Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bfe40d4a8188bae759cbedc979ef1e0674f0a89cb74d418340045564695a84d1"
+                        class="mt-10"
+                      />
+                    </div>
+
+                    <div
+                      class="trading-notes flex-col p-5 mt-10 rounded border-[1px] bg-[rgba(57,118,159,0.1)]"
+                    >
+                      <div class="trading-note-body flex space-x-10 p-2">
+                        <span class="note-time font-bold">11d</span>
+                        <span class="note-text"
+                          >Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Sed ac lacus auctor,</span
+                        >
+                      </div>
+                      <div class="trading-note-body flex space-x-10 p-2">
+                        <span class="note-time font-bold">11d</span>
+                        <span class="note-text"
+                          >Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Sed ac lacus auctor Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Sed ac lacus auctorLorem
+                          ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                          ac lacus auctorLorem ipsum dolor sit amet, consectetur
+                          adipiscing elit. Sed ac lacus auctor Lorem ipsum dolor
+                          sit amet, consectetur adipiscing elit. Sed ac lacus
+                          auctorLorem ipsum dolor sit amet, consectetur
+                          adipiscing elit. Sed ac lacus auctor</span
+                        >
+                      </div>
+                      <div class="trading-note-body flex space-x-10 p-2">
+                        <span class="note-time font-bold">11d</span>
+                        <span class="note-text"
+                          >Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Sed ac lacus auctor Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Sed ac lacus auctorLorem
+                          ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                          ac lacus auctor,</span
+                        >
+                      </div>
+                      <div class="more-updates flex justify-center mt-5">
+                        <a class="text-[#3d88aa] font-semibold" href="#"
+                          >Show Updates</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -605,6 +645,11 @@
     </div>
   </div>
 </template>
+<style scoped>
+.tab-right:hover .hidden {
+  display: block;
+}
+</style>
 
 <script setup>
 import {

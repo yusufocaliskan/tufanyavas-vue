@@ -174,7 +174,9 @@
     >
       <div class="main-content w-full overflow-y-auto bg-yellow-400">
         <!-- Sub Categories -->
-        <div class="sub-categories flex w-full h-16 pt-2 sm:block bg-white">
+        <div
+          class="sub-categories border-b-2 flex w-full h-16 pt-2 sm:block bg-white"
+        >
           <div class="flex justify-center space-x-4">
             <a
               v-for="item in sub_categories"
@@ -192,11 +194,63 @@
           </div>
         </div>
         <div
-          class="content-menu hidden lg:block lg:w-1/5 md:w-1/5 xl:w-1/5 h-screen overflow-y-auto bg-green-600"
+          class="content-menu hidden lg:block lg:w-[160px] h-screen overflow-y-auto bg-green-600"
         >
-          <ul>
-            <li><a href="#">ALL FAV</a></li>
-          </ul>
+          <!-- Search-box -->
+          <div class="flex">
+            <form>
+              <input
+                name="search-box"
+                placeholder="Search..."
+                class="p-4 outline-none border-b-[1px]"
+              />
+            </form>
+          </div>
+          <!--end: search-box -->
+
+          <div class="left-content-menu flex overflow-y-auto">
+            <ul class="flex flex-col bg-red-600 w-60">
+              <li
+                class="flex border-b-[1px] items-center bg-white hover:bg-[#3d88aa] hover:text-white"
+                v-for="item in left_categories"
+                :key="item.id"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 cursor-pointer ml-3"
+                  v-if="item.stared == false"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6 cursor-pointer ml-3"
+                  v-if="item.stared == true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+
+                <a class="flex font-bold w-60 text-neutral-900 p-4" href="#">
+                  {{ item.name }}</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
         <!-- content:menu -->
       </div>
@@ -220,16 +274,18 @@ import {
   MenuItem,
   MenuItems,
 } from "@headlessui/vue";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
+import {
+  Bars3Icon,
+  BellIcon,
+  XMarkIcon,
+  StarIcon,
+} from "@heroicons/vue/24/outline";
+import { StarIcon as SolidStartIcon } from "@vue-hero-icons/solid";
 
-const navigation = [
-  { name: "Forex", href: "#", current: true },
-  { name: "Crypto", href: "#", current: false },
-  { name: "Elliot Wave School", href: "#", current: false },
-];
+import { computed } from "vue";
+import store from "../store/";
 
-const sub_categories = [
-  { name: "Charts", href: "#", current: true },
-  { name: "Video Analysis", href: "#", current: false },
-];
+const navigation = computed(() => store.state.navigation);
+const sub_categories = computed(() => store.state.sub_categories);
+const left_categories = computed(() => store.state.left_categories);
 </script>

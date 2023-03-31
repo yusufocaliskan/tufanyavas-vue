@@ -1,0 +1,1655 @@
+[
+  {
+    "id": 57,
+    "name": "EURUSD",
+    "updated_at": "2023-03-31T06:18:44.765Z",
+    "slug": "eurusd",
+    "content": "\u003cp\u003eEURUSD made sharp recovery recently as seen on 4h chart, up to 78.6% fib level which can still be an important level for limited gains here as it can be wave (B) as part of a higher degree complex correction. Resistance for a potential wave (B) of a flat is anywhere between 1.09 and 1.1050. Drop below 1.0710 will be bearish, but on other hand, a daily or weekly close above 1.1034 will most likely put alternate 4h count #2 in play.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eIn the big picture, we are looking for final wave C of a big complex correction from 2008 highs. The market may try to build a base near\u0026nbsp; 0.9 intervention level back from November 200.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:18:44.754Z",
+    "charts": [
+      {
+        "id": 38335,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcjZWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bcda1473e99e5609d6f8ccbf2a10d8fa7e126951/eurusd%20mar%2031%202023%204h.png",
+        "title": "4h",
+        "created_at": "2023-03-31T06:18:18.297Z",
+        "bias": {
+          "id": 9,
+          "key": "bias9",
+          "description": "It means that the market can stay sideways in a choppy range for a while, or that we do not have a strong bias at the moment. We could be tracking different valid wave counts, so we need more price data before next direction can be confirmed"
+        }
+      },
+      {
+        "id": 38336,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcitWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bb3d679172562f467aee4de96634bc9680f1dc81/eurusd%20mar%2031%202023%204h%202.png",
+        "title": "4h 2",
+        "created_at": "2023-03-31T06:18:18.303Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 37968,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaytVIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8ba3bf5725b188e8fab16750d9f7701efaae58c2/eurusd%20mar%2027%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-27T06:26:55.291Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 37715,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbEtUIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ba16738c7103b0379ad59ea25e18980310b4b107/eurusd%20MAR%2021%202023%20D%202.png",
+        "title": "D-Alternate",
+        "created_at": "2023-03-22T08:17:00.476Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 32639,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbjUvIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c419a5b2c35fb93c7d62835d6d6dcde307ba228a/eurusd%20jan%2003%202022%20m.png",
+        "title": "M",
+        "created_at": "2023-01-03T06:41:48.033Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias4",
+      "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10114 },
+      { "id": 10232 },
+      { "id": 10126 },
+      { "id": 10188 },
+      { "id": 10092 },
+      { "id": 10210 },
+      { "id": 10112 },
+      { "id": 10132 }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "GBPUSD",
+    "updated_at": "2023-03-31T06:23:31.021Z",
+    "slug": "gbpusd",
+    "content": "\u003cp\u003eCable reached a multy-year low after a capitulation back in September 2022. Notice that the price is looking impulsive on a daily chart up to 1.23-1.24 resistance where bulls will try to form a breakout now, after a fourth wave pullback which was more complex than we thought, but it looks finished now after recent nice and strong recovery out of a downward. As such, we will favor more upside after any near-term pullback, possibly in B/2 that can show up in days ahead, as the current leading diagonal in wave A/1 can be coming to an end. Support on next dip is at 1.2190-1.21.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003cbr /\u003e\r\nOn a weekly chart, we are looking for a wedge with price breaking and then turning up sharply from new lows,\u0026nbsp; so we can be in a reversal mode and completion of a higher-degree bear market.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:23:31.013Z",
+    "charts": [
+      {
+        "id": 38339,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc0tWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4d759fad2214c6ec6bb99c9b576a94aa849d5046/gbpusd%20mar%2031%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:23:11.569Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 38340,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc09WIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--73f3a479eb71472db9603b0e95c99c83a8dad9b5/gbpusd%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T06:23:11.574Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 32644,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb04vIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f09d6152badb6c02af397a4c58a67b241f1d8e1a/gbpusd%20jan%2003%202022%20m.png",
+        "title": "M",
+        "created_at": "2023-01-03T06:44:50.004Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias4",
+      "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10023 },
+      { "id": 10137 },
+      { "id": 10189 },
+      { "id": 10080 },
+      { "id": 10169 },
+      { "id": 10053 },
+      { "id": 10227 }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "AUDUSD",
+    "updated_at": "2023-03-30T06:07:11.376Z",
+    "slug": "audusd",
+    "content": "\u003cp\u003eAussie broke to new highs at the end of January, but it came higher into the final leg of a higher-degree impulse, fifth wave that caused a major reversal after a sharp drop out of an ending diagonal. So far, we can already count three legs down into 0.6580 low from where we have seen some recovery, but its not impulsive yet. However, it can be a leading diagonal meaning there can be more gains coming, but its recommended to wait on 0.6757 breakouts, but the real confirmation level is above 0.6860.\u003c/p\u003e\r\n\r\n\u003cp\u003eAs long as 0.6775 holds, we have also another count in view; bearish for a fifth wave down; actually this one looks quite clear.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eWe see drop through 2022 as part of a higher degree of corrective set-back from 2021 highs which can stop this year at around 0.68 - 0.66. At the same time, this can be the right shoulder of a big HS pattern. Bounce on stocks, particularly on HSI would also be very positive for the Aussie.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-30T06:07:11.366Z",
+    "charts": [
+      {
+        "id": 38247,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbWFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--72fc034268ce6ac77c4772a03572362f68dd6288/audusd%20mar%2030%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-30T06:07:04.454Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 37978,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbG1VIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--12dee7a34f997e92cdb335dca8876c27dbf0fa61/audusd%20mar%2027%202023%204h%202.png",
+        "title": "4H 2",
+        "created_at": "2023-03-27T06:35:45.996Z",
+        "bias": {
+          "id": 5,
+          "key": "bias5",
+          "description": "Prices can continue lower from current levels within current bearish move."
+        }
+      },
+      {
+        "id": 36097,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ0NOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--392984be2760638851c0ca992c94b81417573558/audusd%20feb%2026%202023%20d.png",
+        "title": " D",
+        "created_at": "2023-02-27T07:48:44.806Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 32418,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcUYrIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--30a3b2d04248c71bbb0933749259b86513fc0973/audusd%20dec%2027%202022%20m%20rec.png",
+        "title": "M ",
+        "created_at": "2022-12-27T08:13:01.165Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 32419,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcUorIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a6c6a5574ec7208ff32415dae4df8c862dd2fde4/audusd%20dec%2027%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-27T08:13:01.169Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias3",
+      "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10224 }]
+  },
+  {
+    "id": 60,
+    "name": "USDCAD",
+    "updated_at": "2023-03-31T06:09:41.096Z",
+    "slug": "usdcad",
+    "content": "\u003cp\u003eUSDCAD has been trapped in a big range for some time now in the 4-hour chart, which can actually still be a bullish triangle within wave 4. But, it can just take more time to fully unfold subwaves \u0026quot;d\u0026quot; and \u0026quot;e\u0026quot; before we will see further rally into wave 5th wave.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eOn higher-degree charts we see pair in a corrective phase; it\u0026#39;s a complex (W)-(X)-(Y) corrective decline within higher-degree wave X.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:09:41.086Z",
+    "charts": [
+      {
+        "id": 38328,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmVWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--508dd30d24a8d9e1bc8c06fc384fac659caa16eb/usdcad%20mar%2031%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:09:10.997Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 38327,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5c1f8a57acd754010fa92e7cffefe81568527de4/usdcad%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T06:09:10.991Z",
+        "bias": {
+          "id": 9,
+          "key": "bias9",
+          "description": "It means that the market can stay sideways in a choppy range for a while, or that we do not have a strong bias at the moment. We could be tracking different valid wave counts, so we need more price data before next direction can be confirmed"
+        }
+      },
+      {
+        "id": 31721,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdWg3IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3fd992a04516c8e0ecaa71a911231e43f679b8c9/usdcad%20dec%2015%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-14T07:54:27.045Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias7",
+      "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10228 }]
+  },
+  {
+    "id": 61,
+    "name": "USDCHF",
+    "updated_at": "2023-03-31T06:27:53.647Z",
+    "slug": "usdchf",
+    "content": "\u003cp\u003eUSDCHF remains sideways in the 4-hour chart, which we see it as a wave B with a bearish triangle pattern that can be slowly approaching the end sometime in April. So, be aware of more sideways price action to complete the pattern before we will see a breakout lower into wave C, through 0.9060.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eOn a higher degree chart we see an ongoing triangle in B, with subwave (E) in progress that can stop around 0.90 area. Unless it\u0026#39;s still in subwave (C) with deeper support around 0.85 - 0.80.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:27:53.638Z",
+    "charts": [
+      {
+        "id": 38343,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc2FWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--12ded4d4b5d3331afd3bd5cb3fe18e0690c66a8c/usdchf%20mar%2031%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:27:02.034Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 36132,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaU9OIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--35c1b0cfd69a8a972de2e38089eda86845cf3b6c/usdchf%20feb%2026%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-02-27T08:17:50.565Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      },
+      {
+        "id": 36133,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaVNOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fa42f2a9425c166fc147803ca4a01cca41cdae01/usdchf%20feb%2026%202023%20m.png",
+        "title": "M",
+        "created_at": "2023-02-27T08:17:50.568Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias3",
+      "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 62,
+    "name": "USDJPY",
+    "updated_at": "2023-03-30T06:12:00.157Z",
+    "slug": "usdjpy",
+    "content": "\u003cp\u003eUSDJPY made a sharp reversal in 2022 on a daily chart, and touched 126-130 area after BoJ policy YCC adjustment back in December. However that drop appears completed as we have seen the price rally in the 4h chart, but it was just another corrective recovery back to 138, from where we can see a nice bearish reversal, ideally, its a leading diagonal so more weakness can be seen after a rally up in wave 2, back to 134-135 area.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eHigher degree wave C can be coming to an end after nice reversal down at the end of 2022.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-30T06:12:00.149Z",
+    "charts": [
+      {
+        "id": 38251,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbXFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c5052c930b67e89f2ebc42122a0d020a078164de/USDJPY%20mar%2030%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-30T06:11:22.495Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 37498,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbm1TIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fc10715a25c354735e9654c23e6155fa9e2e35fb/USDJPY%20FUT.png",
+        "title": "Jpy Futs",
+        "created_at": "2023-03-20T07:40:18.924Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 36128,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaCtOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--858a652a6c837b12c4a2f5c0c9f3cc55f58ac3c4/usdjpy%20feb%2026%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-02-27T08:17:38.502Z",
+        "bias": {
+          "id": 6,
+          "key": "bias6",
+          "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 28441,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGh2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3a83b2ab48f3a6bc681e41444d04d42757acabeb/usdjpy%20oct%2023%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-10-24T06:24:44.786Z",
+        "bias": {
+          "id": 8,
+          "key": "bias8",
+          "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+        }
+      },
+      {
+        "id": 25664,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajlrIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2f53f5fb313f5e514fc621c2934eb649fac684eb/BOJ%20usdjpy.png",
+        "title": "BOJ",
+        "created_at": "2022-09-08T07:30:51.361Z",
+        "bias": {
+          "id": 9,
+          "key": "bias9",
+          "description": "It means that the market can stay sideways in a choppy range for a while, or that we do not have a strong bias at the moment. We could be tracking different valid wave counts, so we need more price data before next direction can be confirmed"
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias8",
+      "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10120 },
+      { "id": 10168 },
+      { "id": 10090 },
+      { "id": 10154 },
+      { "id": 10226 },
+      { "id": 10204 },
+      { "id": 10071 }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "DXY",
+    "updated_at": "2023-03-27T07:13:54.929Z",
+    "slug": "dollarindex",
+    "content": "\u003cp\u003eUSD Index turned down in October 2022 where we think that the dollar might have seen an important, multi-year top. Notice that the decline is strong and impulsive on a daily chart, meaning that there can be more weakness coming, but after a higher degree correction which can still retest a higher price if suddenly rebounds back above channel resistance line and 104 region.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture\u0026nbsp;\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eA higher degree correction from 2008 hits the channel resistance from where we can see a sharp reversal so there can be a run to the lower side of a range, so DXY can weaken even if just temporarily.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-27T07:13:42.598Z",
+    "charts": [
+      {
+        "id": 38013,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbnlVIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6472aca2e613ff2955c2f559406777f6abbe3b6f/dxy%20mar%2027%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-27T07:10:46.315Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      },
+      {
+        "id": 38015,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbjZVIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9632260c08fea995f13a8956cd8484a17f771f41/dxy%20mar%2027%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-27T07:13:42.310Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 31736,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdmQ3IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d559253bab813bc5db55038510c9eb08785ec860/dx%20dec%2015%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-14T08:15:04.161Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 31034,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamw1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3be643763ef2aa224435f239ec978db605febd5e/dxy%20m%20BT.png",
+        "title": "DXY M",
+        "created_at": "2022-12-02T08:07:51.792Z",
+        "bias": {
+          "id": 8,
+          "key": "bias8",
+          "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias8",
+      "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 12,
+    "name": "SP500",
+    "updated_at": "2023-03-31T06:31:38.064Z",
+    "slug": "sp500",
+    "content": "\u003cp\u003eSP500\u0026nbsp; turned down in February after a break below the channel supports which is important evidence for a bearish trend, but can be temporary as we are tracking wave C, of a potential flat correction. So ideal support for a flat is at around wave A. We have seen price now coming higher from that area, but not really impulsive yet. Possibly flat is completed, or even a triangle will resume. In either case we see some strong resistance at 4120-4160 area.\u003c/p\u003e\r\n\r\n\u003cp\u003eLooking at VIX, fear is increasing. But if/when VIX reaches extremes at the upper side of 2022 range, then watch SP500 for potential support.\u003c/p\u003e\r\n\r\n\u003cp\u003eIf 3820 is broken decisively, then we will go for count #2.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eSP500 can be completing a higher degree wave IV, A-B-C down or still ongoing complex W-X-Y corrective decline.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:31:38.056Z",
+    "charts": [
+      {
+        "id": 38349,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc3lWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1d1398ad94c175281a1c2129b4979692d8d485fb/sp%20mar%2031%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:31:12.055Z",
+        "bias": {
+          "id": 9,
+          "key": "bias9",
+          "description": "It means that the market can stay sideways in a choppy range for a while, or that we do not have a strong bias at the moment. We could be tracking different valid wave counts, so we need more price data before next direction can be confirmed"
+        }
+      },
+      {
+        "id": 38350,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBczJWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--40ac57588d8ec758bcfd936663dd92d1e72e6384/sp%20mar%2031%202023%204h%202.png",
+        "title": "4H2",
+        "created_at": "2023-03-31T06:31:12.059Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 37059,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc0tRIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--60a3b1c4fd86d8d21036bc8e7ec38d634e74fe8d/SP500%20mar%2013%202023%20d1.png",
+        "title": "D1",
+        "created_at": "2023-03-13T08:34:32.092Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 36122,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaG1OIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6780362a990ca2a5552a9d1197902eae9140dae8/SP500%20feb%2026%202023%20d%202.png",
+        "title": "D2",
+        "created_at": "2023-02-27T08:10:57.514Z",
+        "bias": {
+          "id": 6,
+          "key": "bias6",
+          "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 32665,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGgvIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ae6416fbc7486e75938bed868b5d97136bc4b12c/sp%20jan%2003%202022%20M.png",
+        "title": "M",
+        "created_at": "2023-01-03T06:56:40.792Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias2",
+      "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 9990 },
+      { "id": 10041 },
+      { "id": 10069 },
+      { "id": 10201 },
+      { "id": 10011 },
+      { "id": 10096 },
+      { "id": 10124 },
+      { "id": 10151 },
+      { "id": 10178 },
+      { "id": 10231 }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "CRUDE OIL",
+    "updated_at": "2023-03-31T06:02:57.483Z",
+    "slug": "crude-oil",
+    "content": "\u003cp\u003eDrop to new lows at the end of 2022 suggests that the structure from March 2022 highs will be much deeper now and longer in time since we think that energy is in a higher degree corrective phase. We see a drop from 130 area as wave A that can be coming to an end now after that drop out of a (4) triangle, so we know that this was a fifth wave down, since moves out of a triangle are final in a sequence. As such, we should not be surprised by a rally which is already happening, so far with three waves but there can be more gains coming if price can break the upper trendline of a current bullish channel, as this would likely indicate that crude is in wave 3. However, a break and drop below\u0026nbsp; 66.85 bearish level will call for more weakness.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eCrude oil is bullish when looking on monthly and daily charts, but we can see it now in a higher degree corrective slowdown.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:02:57.476Z",
+    "charts": [
+      {
+        "id": 38323,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcktWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bdd0d7432fce7f4ede5683106f74099541aa3930/oil%20%20mar%2031%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:02:25.674Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 38324,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBck9WIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--75ac3c5a472330ce3a0f654d99ddcb7e27b4d3c2/oil%20%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T06:02:25.679Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 32676,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcU4vIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e20b46bee209a710b793ed0dccc0771d39d563dc/oil%20jan%2003%202022%20m.png",
+        "title": "M",
+        "created_at": "2023-01-03T07:02:29.644Z",
+        "bias": {
+          "id": 9,
+          "key": "bias9",
+          "description": "It means that the market can stay sideways in a choppy range for a while, or that we do not have a strong bias at the moment. We could be tracking different valid wave counts, so we need more price data before next direction can be confirmed"
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias9",
+      "description": "It means that the market can stay sideways in a choppy range for a while, or that we do not have a strong bias at the moment. We could be tracking different valid wave counts, so we need more price data before next direction can be confirmed"
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10133 },
+      { "id": 10160 },
+      { "id": 10054 },
+      { "id": 10172 },
+      { "id": 10192 },
+      { "id": 10098 },
+      { "id": 10116 },
+      { "id": 10070 },
+      { "id": 10229 },
+      { "id": 10093 }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "DAX",
+    "updated_at": "2023-03-31T06:13:30.925Z",
+    "slug": "dax",
+    "content": "\u003cp\u003eDax has been trading higher since October 2022\u0026nbsp; but five waves up from that low suggest that bulls might have come to an end now. In fact, the price turned south recently and broke the daily trendline support which looks like a step into a new A-B-C corrective phase, so clearly we should be aware of further weakness for wave C after wave B rally that can stop around March highs and 15700 level.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eThe index may have a completed (A)-(B)-(C) correction from the highs, unless it\u0026#39;s still in progress as a more complex correction (ALT VIEW) within higher degree wave four.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:13:30.914Z",
+    "charts": [
+      {
+        "id": 38331,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcnFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--abde4e89bed0dedd4d30768d143b8053bddbe871/dax%20%20mar%2031%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:12:51.268Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 38332,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcnVWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3ff9f25248a0ab4da2479c7a6552bfbf9c9c37b7/dax%20%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T06:12:51.275Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 36113,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaENOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--209a376a11752b07281a894bd1991864aa199e7c/DAX%20feb%2026%202023%20d%202.png",
+        "title": "D ALT",
+        "created_at": "2023-02-27T08:04:09.808Z",
+        "bias": {
+          "id": 8,
+          "key": "bias8",
+          "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+        }
+      },
+      {
+        "id": 31742,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjE3IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2222f843547a104b1d122d0d1d82b5d95668b57b/dax%20dec%2015%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-14T08:19:55.394Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 34144,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbCtGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--904bc18e14c1576926381c6af684d3be0db46dc6/dax%20jan%2026%202023%20d%202.png",
+        "title": "ALT view",
+        "created_at": "2023-01-26T07:42:52.516Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias9",
+      "description": "It means that the market can stay sideways in a choppy range for a while, or that we do not have a strong bias at the moment. We could be tracking different valid wave counts, so we need more price data before next direction can be confirmed"
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10114 },
+      { "id": 10136 },
+      { "id": 10187 },
+      { "id": 10220 },
+      { "id": 10081 },
+      { "id": 10097 }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "XAUUSD",
+    "updated_at": "2023-03-31T06:35:35.736Z",
+    "slug": "gold",
+    "content": "\u003cp\u003eAfter strong and deep decline to 1800 back in February, metal is now once again turning bullish as due to uncertainty on a global scale due to bank crisis. We have seen a strong move towards 2k, where the market slowed down, possibly for a new corrective pullback; ideally it\u0026#39;s wave four that is now at first support here near 1940, so watch out for a continuation higher within wave 5 soon.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eOn a higher degree time frame, we see gold bottoming near 1600 as a flat correction so new all-time high can be underway now.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:35:35.729Z",
+    "charts": [
+      {
+        "id": 38353,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdENWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--be60146c2e16f38e41a13c7e9da00c195e392b9f/gold%20mar%2031%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:35:21.567Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 37517,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb3lTIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2bd591fcb341b25e5b2afa030e8206737b2af788/gold%20MAR%2021%202020%20d.png",
+        "title": "D",
+        "created_at": "2023-03-20T07:51:17.016Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 32685,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXgvIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c074106b3cf526ba1e9ca1306790f144ad8a01da/GOLD%20jan%2003%202022%20M.png",
+        "title": "M",
+        "created_at": "2023-01-03T07:06:19.749Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 28436,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaE52IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f62dd0456f232e980e9a81a89f40c651883a7544/gold%20oct%2023%202022%20COT.png",
+        "title": "COT",
+        "created_at": "2022-10-24T06:21:01.967Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias3",
+      "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10079 },
+      { "id": 9978 },
+      { "id": 10121 },
+      { "id": 9988 },
+      { "id": 10015 },
+      { "id": 10034 },
+      { "id": 10155 },
+      { "id": 10175 },
+      { "id": 10055 },
+      { "id": 9995 },
+      { "id": 10191 },
+      { "id": 10221 }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "XAGUSD",
+    "updated_at": "2023-03-31T06:39:46.154Z",
+    "slug": "xagusd",
+    "content": "\u003cp\u003eSilver has turned lower at start of the year but drop from the high can be counted as a w-x-y correction that found support at 19.88. Ideally that was wave II on a dialy chart where price is currently testing the upper side of a channel. A breakout here is very probable as gold/silver ratio move south, so more gains will be expected in the near-term, especially as recovery on 4h looks impulsive. Supports on dips can be near 23-35.50\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eOn a higher pattern, we see a bottom back in 2020 from where the market made only one leg up, so ideally it\u0026#39;s wave A/1, meaning more upside will be expected after the current wave B/2 pause that is already bouncing from the support. We are expecting higher prices in 2023.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:39:46.144Z",
+    "charts": [
+      {
+        "id": 38355,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdEtWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a0c6bb9d83ba44057b1d08530f1923d58721d10a/silver%20mar%2031%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:39:26.992Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 38356,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdE9WIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--58e5ccc3cfccbbe0802a3b34f4ec91c91296ff12/silver%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T06:39:26.997Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 32194,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc0Y5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--74d577fc45ff7a035c5a01df1543cb4a5e38f7a0/silver%20dec%2021%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-21T07:44:21.348Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias4",
+      "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10179 },
+      { "id": 10072 },
+      { "id": 9989 },
+      { "id": 10203 },
+      { "id": 10099 },
+      { "id": 10233 },
+      { "id": 10127 },
+      { "id": 10043 }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "NZDUSD",
+    "updated_at": "2023-03-27T06:59:23.939Z",
+    "slug": "nzdusd",
+    "content": "\u003cp\u003eNZDUSD turned bullish as expected after we spotted a completed five-wave bearish cycle within wave C back in October 2022. Notice that rise from that low is very extended and clearly made by five waves up without overlaps from the 2022 lows as shown on a daily chart,so it\u0026#39;s an impulse; a change in trend that will send prices even higher in 2023. However, nothing moves in a straight line. We know that after every five waves, a three-wave correction occurs which can now come to an end with an\u0026nbsp; (A)-(B)-(C) expanded flat correction. A recovery back above 0.63 will put bulls back in play. Some short-term support is near 0.6137\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBIg Picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eOn a higher degree chart, we see pair turning up from an important trendline of a potential triangle, so wave (E) can be finished. As such, more gains will be expected in upcoming weeks/months.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-27T06:59:23.929Z",
+    "charts": [
+      {
+        "id": 38005,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblNVIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6c1e9b81919f5e9daa5a302306a3c0f215915930/NZDusd%20mar%2027%202023%204h.png",
+        "title": "4H",
+        "created_at": "2023-03-27T06:59:12.256Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 36089,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdmlNIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--683843c6428f28767ebcf68c16c295a1308ff346/NZDUSD%20feb%2026%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-02-27T07:41:41.372Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 26811,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcnBvIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b5a292075ebcd1afa641225c337dcbda3f57c7fb/NZDUSD%20sep%2027%202022%20W.png",
+        "title": "W",
+        "created_at": "2022-09-27T06:42:15.668Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias3",
+      "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 38,
+    "name": "EURGBP",
+    "updated_at": "2023-03-24T07:59:24.974Z",
+    "slug": "eurgbp",
+    "content": "\u003cp\u003eEURGBP is in uptrend as ECB seems a lot more hawkish than BoE. From an Elliott wave perspective, we see pair trapped in a big triangle formation but there is room for more upside now, ideally higher into wave D which can be made by three waves, with room for 0.9/0.91 area, especially if current bull flag is broken.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eEURGBP has stabilized in the last few years but remains trapped in a big range after reaching multi-year support. However, new high won\u0026#39;t be taken out that easily, so a higher degree contra trend price action in wave (B) can be still in play with W-X-Y substructure.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-24T07:59:24.966Z",
+    "charts": [
+      {
+        "id": 37897,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ2lVIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e3ff5fab7c9850c4a95cbbcbbe645e06b4b3d874/eurgbp%20mar%2024%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-24T07:59:15.147Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 34536,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdWVHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--977ecd84d10c05e215457aef32ad32f59300706f/eurgbpd%20feb%2002%202023%20W.png",
+        "title": "W",
+        "created_at": "2023-02-02T08:17:31.399Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 31997,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdng4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9127bb68c139df8113402757e468098e1035d356/eurgbp%20dec%2019%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-19T07:25:51.212Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias2",
+      "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 28,
+    "name": "EURJPY",
+    "updated_at": "2023-03-31T06:27:57.795Z",
+    "slug": "eurjpy",
+    "content": "\u003cp\u003eEURJPY is still trading at the highs on a daily chart, so despite stronger JPY we have also strong EUR currency. EURJPY pair actually remains in sideways consolidation which more and more looks like a bullish triangle pattern in wave (B) before we will see another higher high for wave (C) to complete 5th wave of a larger ending diagonal formation within higher degree wave C.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eBig and complex overlapping ongoing recovery from 2020 lows with final wave C of (D) can be completed.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:27:57.787Z",
+    "charts": [
+      {
+        "id": 38345,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc2lWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7b0f56c7e8faf5db25334845ff5500108120d624/eurjpy%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T06:27:26.399Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 29859,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcUowIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--396bb930e07b336584fd919f906c52ba16676f3a/W%20eurjpy%20nov%2014%202022.png",
+        "title": "W",
+        "created_at": "2022-11-14T06:48:18.906Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias3",
+      "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 39,
+    "name": "GBPJPY",
+    "updated_at": "2023-03-31T06:31:04.579Z",
+    "slug": "gbpjpy",
+    "content": "\u003cp\u003eGBPJPY pair is still at the highs on a daily chart, which looks like a consolidation within uptrend, ideally as a bigger bullish running triangle pattern within higher degree wave (4). So, once a triangle fully unfolds, be aware of a retest of the highs for wave (5) of a higher degree wave C/B.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eCorrective A-B-C recovery within higher degree wave B in final stages.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:31:04.570Z",
+    "charts": [
+      {
+        "id": 38347,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc3FWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--655caa8071519aab89b8ff139cbf2353afe45cb8/gbpjpy%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T06:30:52.165Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 32695,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclovIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--010fb74b69d7c60127f68cd86548b3a79157526a/GBPJPY%20jan%2003%202022%20W.png",
+        "title": "W",
+        "created_at": "2023-01-03T07:25:27.248Z",
+        "bias": {
+          "id": 8,
+          "key": "bias8",
+          "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias8",
+      "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 40,
+    "name": "AUDJPY",
+    "updated_at": "2023-03-27T07:01:43.436Z",
+    "slug": "audjpy",
+    "content": "\u003cp\u003eAUDJPY turned lower back in September and October of 2022, after the pair came out of a triangle in four to complete a higher degree uptrend. We think there is an important top now and that much more weakness can be seen as drop from 2022 high can be counted in five waves, but as an expanding diagonal, now in late stages. As such, be aware of some support down here at 86-84 area.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eMulty-year triangle in play, now at the upper side of a cycle top in wave D.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-27T07:01:43.424Z",
+    "charts": [
+      {
+        "id": 38007,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbmFVIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--70365df69d10a007b4eaf25273dd0b235efca254/AUDJPY%20mar%2027%202023%20D.png",
+        "title": "d",
+        "created_at": "2023-03-27T07:01:23.618Z",
+        "bias": {
+          "id": 6,
+          "key": "bias6",
+          "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 32700,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcnQvIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2abe3cc224c2c1616d6f5017efcfa060a3a8cffc/AUDJPY%20jan%2003%202022%20M.png",
+        "title": "M",
+        "created_at": "2023-01-03T07:28:41.382Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias8",
+      "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10158 }, { "id": 10234 }]
+  },
+  {
+    "id": 41,
+    "name": "NZDJPY",
+    "updated_at": "2023-03-31T06:57:18.735Z",
+    "slug": "nzdjpy",
+    "content": "\u003cp\u003eNZDJPY retested 80/81 support which is not being broken, so we think that price action since end of 2022 is actually a consolidation, ideally, a triangle in wave B as shown on a daily chart, so more gains is expected into wave Y of (D), possibly to reach 90.00 area.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eMulti-year triangle in play, now at the upper side of a cycle top in wave (D).\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T06:57:05.607Z",
+    "charts": [
+      {
+        "id": 38361,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdGlWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b255c3d1df70b807c820bd56bc21bd6e14bca29f/nzdjpy%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T06:57:05.235Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 38362,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdG1WIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e19f12dcedd2090fa2f8f1d448f6a257d0f5037e/nzdjpy%20mar%2031%202023%20w.png",
+        "title": "w",
+        "created_at": "2023-03-31T06:57:05.240Z",
+        "bias": {
+          "id": 3,
+          "key": "bias3",
+          "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias3",
+      "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 42,
+    "name": "CADJPY",
+    "updated_at": "2023-03-31T07:01:35.128Z",
+    "slug": "cadjpy",
+    "content": "\u003cp\u003eCADJPY turned aggressively down with five wave cycle from 110 area. A decline that suggests more weakness but after a corrective rally. We know that corrections are made by three waves; A-B-C sutructure, and so far we can see only wave A up, so there is room for more upside after wave B, possibly back to 101-102 area.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eHigher degree A-B-C recovery can be finished at 110 area.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-31T07:01:35.120Z",
+    "charts": [
+      {
+        "id": 38375,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdWFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1aa2d545c322cfa181e7b8e839f5745ede3431fc/cadjpy%20mar%2031%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-31T07:01:22.821Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 32109,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbXg5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bef4b065eb4307e480f2f5fb67cf350d04e16eb0/CADpy%20dec%2020%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-20T07:47:55.746Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias7",
+      "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10159 }, { "id": 10184 }, { "id": 10208 }]
+  },
+  {
+    "id": 64,
+    "name": "EURAUD",
+    "updated_at": "2023-03-24T07:25:17.494Z",
+    "slug": "euraud",
+    "content": "\u003cp\u003eEURAUD is making a higher degree wave (A)-(B)-(C) corrective rally after potentially completing the leading diagonal at 1.43 area in summer 2022 (weekly chart). With current break above 1.60, seems like wave (C) is already in progress with room up to 1.64 - 1.68 area to complete a five-wave cycle of the lower degree before it finds the resistance.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eBroken multi-year trendline support suggests that the Australian dollar will be doing much better than the euro in years to come, but after a potential leading diagonal in wave A/1 from the highs, there\u0026#39;s pullback within B/2 before a bearish continuation into C/3.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-24T07:25:17.485Z",
+    "charts": [
+      {
+        "id": 37884,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdnVUIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9069cbf6425f247aa6bdbd2a2a138ea03d05a72e/euraud%20mar%2024%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-24T07:25:06.132Z",
+        "bias": {
+          "id": 8,
+          "key": "bias8",
+          "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+        }
+      },
+      {
+        "id": 32804,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaU9BIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1b31d507ccf50de3455e2c99472e2cbc81267364/euraud%20jan%2004%202023%20w.png",
+        "title": "W",
+        "created_at": "2023-01-04T07:30:33.654Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 30030,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazExIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b4987e63790948ad646a08c2a44758b1ed215c64/euraud%20nov%2016%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-11-16T08:09:15.538Z",
+        "bias": {
+          "id": 6,
+          "key": "bias6",
+          "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias6",
+      "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10017 }, { "id": 10182 }]
+  },
+  {
+    "id": 45,
+    "name": "EURNZD",
+    "updated_at": "2023-03-24T07:35:45.223Z",
+    "slug": "eurnzd",
+    "content": "\u003cp\u003eEURNZD made a bigger recovery on a daily chart, but we see it as an (A)-(B)-(C) corrective rally after the completion of an expanding diagonal at 1.5600 area. We can actually already see the market turning bearish again, away from a resistance area of wave (C). That was an impulse of wave (1) from 1.76, so the bearish trend can resume after wave (2) rally that is testing key 78,8% resistance. If EURNZD is looking for a higher resistance, then watch daily count #2, where EURNZD pair can send the price up to second 1.75 - 1.80 resistance area for wave (C) after a completion of a bullish running triangle in (B).\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eThe corrective rise from 2015 suggests more weakness.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-24T07:35:45.213Z",
+    "charts": [
+      {
+        "id": 37887,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjZUIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bd05ac22eef4792346b47a828169a0cb4f75e47c/eurnzd%20mar%2024%202023%20d%201.png",
+        "title": "D",
+        "created_at": "2023-03-24T07:35:13.213Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 37886,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjJUIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2a51a17e8ce209189b4686a764f3e732b8b6a9ef/eurnzd%20mar%2024%202023%20d%202.png",
+        "title": "D2",
+        "created_at": "2023-03-24T07:35:13.207Z",
+        "bias": {
+          "id": 8,
+          "key": "bias8",
+          "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+        }
+      },
+      {
+        "id": 26928,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaTlwIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2b9666830b57e39c8aefe483084f7471f5ddecbb/eurNZD%20sep%2028%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-09-28T06:59:44.058Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias7",
+      "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10018 }]
+  },
+  {
+    "id": 44,
+    "name": "GBPAUD",
+    "updated_at": "2023-03-08T07:49:31.914Z",
+    "slug": "gbpaud",
+    "content": "\u003cp\u003eGBPAUD may have a completed three-wave A-B-C decline for a higher degree wave D down at 1.59 area, because of a strong rebound in September 2022. As such, we think that new three-wave A-B-C recovery within wave E can be in play now, possibly even back to 1.90 resistance area. H\u0026amp;S pattern can also be completing the right shoulder.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eUnfolding a five-wave bearish cycle on the monthly basis, currently finishing a bearish triangle pattern within wave (IV) that can send the price lower for wave (V).\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-08T07:49:31.908Z",
+    "charts": [
+      {
+        "id": 36755,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcEtQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f510fd3cc330eb8513c1cc5206886477ff3e70ed/GBPaud%20mar%2008%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-08T07:49:01.924Z",
+        "bias": {
+          "id": 8,
+          "key": "bias8",
+          "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+        }
+      },
+      {
+        "id": 29330,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcEZ5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d889a9d8070c7b0ee8a429855b480d4773ed2519/GBPAUD%20NOV%2007%202022%20M.png",
+        "title": "M",
+        "created_at": "2022-11-07T08:35:30.197Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias7",
+      "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10183 }, { "id": 10019 }]
+  },
+  {
+    "id": 46,
+    "name": "GBPNZD",
+    "updated_at": "2023-03-08T07:51:20.548Z",
+    "slug": "gbpnzd",
+    "content": "\u003cp\u003eGBPNZD spiked down and then reversed sharply back in September 2022 when pair completed wave C of (D) at 1.8140 area. A reaction higher was strong to above 2.0; it was impulsive for wave A, so be aware of a continuation higher for wave C of (E) after the current B wave. Ideally, the pair will find buyers for a rise into C of (E) of IV that can retest the upper triangle line near 2.05 resistance area. Support is at 1.87-1.85.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eCorrective sideways price action within higher degree downtrend, ideally a triangle for wave IV is pointing to further weakness within higher degree wave V.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-08T07:51:20.539Z",
+    "charts": [
+      {
+        "id": 36759,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcGFQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0233302a77ae966b16b270e9a6d9f4d24933d33d/GBPNZD%20mar%2008%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-08T07:50:57.121Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 26921,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaWhwIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6bde56bbbe8e0db339e846aeac17f1d77e824b02/GBPNZD%20sep%2028%202022%20W.png",
+        "title": "W",
+        "created_at": "2022-09-28T06:54:10.282Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 25052,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdHRoIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ecb2c6e454a5b6a302a5dda585ac97595e0a9f76/gbpnzd%20aug%2030%20202%20m.png",
+        "title": "M",
+        "created_at": "2022-08-30T07:26:11.457Z",
+        "bias": {
+          "id": 6,
+          "key": "bias6",
+          "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias7",
+      "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 47,
+    "name": "AUDNZD",
+    "updated_at": "2023-03-06T08:33:41.899Z",
+    "slug": "audnzd",
+    "content": "\u003cp\u003eAUDNZD turned sharply down in the last quarter of 2022, away from the upper trendline of a previously bullish EW channel which is usually the ending point of a higher-degree structure. We talked about this in our 2022 updates and warned about a bearish turning point which is now in full progress and will most likely resume much lower as pair shows an impulsive drop for wave A. However, nothing moves in a straight line, so wave (B) rise is not a surprise either, which appears completed after recent nice break out of an upward channel. Reaction looks impulsive, so I assume there can be more weakness coming after any short-term rally.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003ePrice is trapped in a big consolidation which is a triangle on the way down. However, it appears incomplete as we need A-B-C-D-E subwaves before we can expect big range to be broken.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-06T08:33:41.892Z",
+    "charts": [
+      {
+        "id": 36587,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdXFPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--36ddd2191b13d72c0205072c98a580012fe78945/audnzd%20mar%2005%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-06T08:33:24.119Z",
+        "bias": {
+          "id": 6,
+          "key": "bias6",
+          "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 32341,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbFIrIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--974986e5a0bb31f2de4ba8cad7e0d3063f49ef2f/audnzd%20dec%2023%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-23T07:51:59.717Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias3",
+      "description": "Price could stay sideways for few more sessions before breaks higher, out of the range and above the resistance level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10046 }, { "id": 10209 }]
+  },
+  {
+    "id": 48,
+    "name": "USDNOK",
+    "updated_at": "2023-03-09T06:44:01.536Z",
+    "slug": "usdnok",
+    "content": "\u003cp\u003eUSDNOK came down at the end of 2022 as USD fell across the board. However, a drop stopped at around 9.5 from where we can see some deep recovery now, currently still at an important 78.6% Fib, potentially even a \u0026quot;top zone\u0026quot; for the right shoulder. For bearish case this area has to hold cand ideal cause a new sell-off back towards 10. Only then we can look for a \u0026quot;top in place\u0026quot; at 11.00. Keep in mind that as long as trendline support/neckline holds, a bullish count is also a valid option for a fifth wave up. But in eighter case, we think that this pair will turn much lower later this year.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eFive waves down from 12.00 area back in 2020 is an impulse, so we expect further weakness when looking at the higher degree charts, possibly even back to 7.65, 2018 low.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-09T06:44:01.527Z",
+    "charts": [
+      {
+        "id": 36839,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdWFQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4cc05325a77f5aa8bf70ba501308fdf34b08f482/usdnok%20mar%2009%202023%20d%201.png",
+        "title": "D1",
+        "created_at": "2023-03-09T06:43:28.154Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 36838,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVdQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a3307e6e4a4bfa0598a6ddfe9e04ae717f8a9780/usdnok%20mar%2009%202023%20d%202.png",
+        "title": "D2",
+        "created_at": "2023-03-09T06:43:28.150Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 30390,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclYyIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7427c7d31d14f458ee2714c3743c707a5f4de639/USDNOK%20nov%2022%202022%20w.png",
+        "title": "W",
+        "created_at": "2022-11-22T07:42:36.254Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias7",
+      "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10141 },
+      { "id": 10172 },
+      { "id": 10076 },
+      { "id": 10100 },
+      { "id": 10237 }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "USDMXN",
+    "updated_at": "2023-03-30T06:20:22.294Z",
+    "slug": "usdmxn",
+    "content": "\u003cp\u003eUSDMXN made five waves down from 2020 highs before price slowed down for a consolidation which we saw it as a triangle in B. We are tracking now a higher degree wave C, which should be completed by a five-wave cycle of the lower degree. So, after current wave (IV) correction, be aware of more weakness within wave (V) of C with room down to 17.50 - 17.00 area. This bearish projection remains valid as long as market trades below 19.27 invalidation level and trendline resistance connected from 20.62.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eHigher degree five wave recovery is finished; now a bear market in three waves.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-30T06:20:22.287Z",
+    "charts": [
+      {
+        "id": 38259,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbktWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1e287fffee951d7455988c17203388f3111afb09/USDMXN%20mar%2030%202023%20D.png",
+        "title": "D",
+        "created_at": "2023-03-30T06:20:12.729Z",
+        "bias": {
+          "id": 5,
+          "key": "bias5",
+          "description": "Prices can continue lower from current levels within current bearish move."
+        }
+      },
+      {
+        "id": 36375,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGFPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5ccccd2aa6051e9b2c3d407442fa46d2c713ed8d/usdmxn%20mar%2002%202023%20w.png",
+        "title": "W",
+        "created_at": "2023-03-02T06:47:19.170Z",
+        "bias": {
+          "id": 5,
+          "key": "bias5",
+          "description": "Prices can continue lower from current levels within current bearish move."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias6",
+      "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10104 }, { "id": 10185 }]
+  },
+  {
+    "id": 50,
+    "name": "USDTRY",
+    "updated_at": "2023-01-11T07:30:09.457Z",
+    "slug": "usdtry",
+    "content": "\u003cp\u003eUSD/TRY is in uptrend after a sharp drop back in 2021 which was seen as wave IV correction. Notice that recovery is now very strong back to new highs, which can be counted in an impulsive fashion so we think there will be more gains after recent break out of a sideways price action. We see this wave V in play now for 19.50-20.00.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eHigher degree impulse can be in late stages with the current five subwaves with blue wave V. Frist upward level is at 20.00 where bulls can slow down, but next extension targets show room even for 25 and 30.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-01-11T07:30:09.451Z",
+    "charts": [
+      {
+        "id": 33227,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc3FCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--28da597497a51d882314d23c71abf202f957a864/usdtry%20jan%2012%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-01-11T07:29:12.016Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 23284,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdk5hIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0ce969eac7ec87fbf56c70a20ec5dc58803235c4/usdtry%20aug%2001%202022%20w.png",
+        "title": "W",
+        "created_at": "2022-08-01T06:36:00.667Z",
+        "bias": {
+          "id": 8,
+          "key": "bias8",
+          "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias8",
+      "description": "Market is rising, but our wave prediction suggests that market could find a top soon and reverse lower. You will typically see this arrow when we will be tracking final stages of a corrective movement or after impulse. "
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": []
+  },
+  {
+    "id": 51,
+    "name": "10Y BUND",
+    "updated_at": "2023-03-13T08:22:20.257Z",
+    "slug": "y-bund",
+    "content": "\u003cp\u003eGerman Bund is falling sharply and impulsively for the last two years without overlaps, so its a bearish trend, meaning there can be more weakness coming, but divergence on the RSI and wedge sharp suggest that there can be bottom in 2023 at around 130. We expect a bounce, either into wave four or possibly already into higher wave B when the falling trendline near 145 is broken (count #2). In either case, the personality of the price at the end of the current bearish cycle suggests that bears are tired and that sooner or later there will be a higher degree recovery.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig Picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eBearish trend; a higher degree A-B-C down to 78.6% after a completed five-wave bullish impulse in 2020.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-13T08:22:20.250Z",
+    "charts": [
+      {
+        "id": 37048,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmVRIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--defa60094afb561cf36297a4f7854686a498a6ac/bund%20mar%2013%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-13T08:22:03.706Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      },
+      {
+        "id": 32118,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblY5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5d1395269c04c0fa5e5dde316020d629ebf31b12/bund%20dec%2020%202022%20m.png",
+        "title": "M",
+        "created_at": "2022-12-20T08:01:10.319Z",
+        "bias": {
+          "id": 6,
+          "key": "bias6",
+          "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias6",
+      "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [{ "id": 10073 }]
+  },
+  {
+    "id": 52,
+    "name": "10Y NOTES",
+    "updated_at": "2023-03-22T08:14:52.698Z",
+    "slug": "y-notes",
+    "content": "\u003cp\u003e10Y US Notes turned higher at the end of 2022 when USD dollar turned down because of lower US yeilds, on speculation that FED is approaching the end of a hiking cylce. We we have seen a nice reversal up back with five waves in wave A, followed by a pullback which can be wave B with further gains for C wave now, ideally to 118\u0026#39;00 equality target.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003cu\u003eBig picture:\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eHigher degree wave A at the potential support, at 2018 swing low.\u003c/p\u003e\r\n",
+    "previous_content": "",
+    "published_to_iu_at": "2023-03-22T08:14:52.691Z",
+    "charts": [
+      {
+        "id": 37710,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazJUIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--703294b8dad72206759d135ccbc7ba88e25f3dbf/10%20year%20mar%2022%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-22T08:14:15.468Z",
+        "bias": {
+          "id": 1,
+          "key": "bias1",
+          "description": "Prices can continue higher from current levels within current bullish move."
+        }
+      },
+      {
+        "id": 36150,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaldOIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d35b081f8c1f80ee1282b556208e0d54878af0a7/US%20NOTES%20feb%2026%202023%20m.png",
+        "title": "M",
+        "created_at": "2023-02-27T08:35:44.839Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      },
+      {
+        "id": 37708,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa3VUIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--338133fe2f5f5badc1722a775f0cbfed49fe1bf1/10%20yileds%20mar%2022%202023%20d.png",
+        "title": "Yields D",
+        "created_at": "2023-03-22T08:14:06.665Z",
+        "bias": {
+          "id": 9,
+          "key": "bias9",
+          "description": "It means that the market can stay sideways in a choppy range for a while, or that we do not have a strong bias at the moment. We could be tracking different valid wave counts, so we need more price data before next direction can be confirmed"
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias6",
+      "description": "Market is falling but it could make a pull-back before downtrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 10153 },
+      { "id": 10168 },
+      { "id": 9986 },
+      { "id": 10012 },
+      { "id": 10068 }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "BTCUSD",
+    "updated_at": "2023-03-31T06:54:38.606Z",
+    "slug": "btcusd",
+    "content": "\u003cp style=\"margin-bottom:11px\"\u003eBTCUSD is sharply and impulsively up away from 19k support area, so bulls can be still here. With recent break above 25k previous highs by five waves, there can be room for more upside, especially if current 26k-25k support area holds as an A-B-C pullback. If we will see further rally towards 30k and higher, then we might start considering the steepest wave (3), however, any bigger drop decisively below 24k level would be most likely signal for at least a temporary top and higher degree corrective decline.\u003c/p\u003e\r\n\r\n\u003cp style=\"margin-bottom:11px\"\u003e\u003cu\u003eBig picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp style=\"margin-bottom:11px\"\u003eThe decline from all-time highs is approaching the equality support at 78.6% Fib level, so technically bears may slow down in 2023 at 12k-15k support.\u003c/p\u003e\r\n",
+    "previous_content": "\u003cp style=\"margin-bottom:11px\"\u003eBTCUSD keeps moving nicely higher in the 4-hour chart, so seems like leading diagonal into wave (A)/(1) from the lows is still in progress. However, we see key level here around 25k-26k area, from where we can expect a corrective pullback in wave (B)/(2), unless it alternatively explodes into very bullish wave 3. However, still keep an eye on bearish count #2 as recent recovery can be also as part of a complex correction in wave 4 that can retest the lows for wave 5.\u003c/p\u003e\r\n\r\n\u003cp style=\"margin-bottom:11px\"\u003e\u003cu\u003eBig picture\u003c/u\u003e\u003c/p\u003e\r\n\r\n\u003cp style=\"margin-bottom:11px\"\u003eA three-wave decline from all-time highs is approaching the equality support at 78.6% Fib level, so technically bears may slow down this year at 12k-18k support. Also, watch the daily downward channel for any changes in a direction if the big line from the all-time high is broken.\u003c/p\u003e\r\n\r\n\u003cp\u003eAs expected, BTCUSD remains nicely and impulsively bearish in the 4-hour\u0026nbsp;chart\u0026nbsp;and with current break out of projected wave 4 triangle pattern, seems like final wave 5 of C is now in progress that can ideally stop here around key do/die 18k/17k area. Just please keep in mind that only strong bounce and impulsive recovery back above 31500 level would be signal for bulls. As long as the price is above 14000 level, bulls are still valid.\u003c/p\u003e\r\n\r\n\u003cp\u003eBTCUSD is coming sharply down in the 4-hour chart after we noticed a completed corrective rally and it more and more looks like a bearish impulse that can take us much lower. However, based on two different daily interpretations, for now we are still tracking wave (C) or (3), but we will keep an eye closely on an upcoming recovery. If will be slow and in three waves only, then it will be a correction in wave (4) with resistance around 42000k level, but any strong and impulsive rebound back above 44200 level would be signal that bulls are back.\u003c/p\u003e\r\n\r\n\u003cp\u003eBTCUSD stopped at channel resistance line for wave (C) and turned sharply down in the 4-hour chart, which means that (A)-(B)-(C) corrective rally is completed and we can now expect a new decline at least in three waves (A)/(1)-(B)/(2)-(C)/(3) towards 40k or lower. Any strong bearish acceleration below 37700 region would be most likely signal for wave (3) of a five-wave bearish impulse.\u003c/p\u003e\r\n\r\n\u003cp\u003eAs expected, BTCUSD looks to be still trading bearish in the 4-hour chart, so we are still tracking a five-wave cycle within wave (C) or (3) that can send the price at least down to 30k level for wave (C) if not even lower for wave (3). Keep in mind that BTC is bearish as long as it\u0026#39;s trading below strong trendline connected from the highs and below 43500 invalidation/bullish confirmation level.\u003c/p\u003e\r\n\r\n\u003cp\u003eAs expected, BTCUSD came nicely lower in the 4-hour chart, but we might be at some important levels now, so at this stage we are tracking two counts. In the primary count, BTCUSD may have a completed five-wave cycle within wave (C), while in the second scenario, a five-wave cycle within wave (C)/(3) could be still in progress. So, the key we will be an upcoming intraday recovery; if will be slow in three waves only, then we can expect more weakness for wave 5, but any stronger and bigger rally back above 40k region would be signal for the bottom and bullish reversal.\u003c/p\u003e\r\n\r\n\u003cp\u003eAs expected, BTCUSD is coming even lower in the 4-hour chart after a retest of December 2021 lows, ideally within wave (C) or (3) and there can be room for more weakness, at least towards 33k-31k area for wave (C) if not even lower for wave (3) down below 30k. So, we remain bearish and we should be aware of more downside pressure while the price is below strong trendline connected from the highs and 43500 invalidation level.\u003c/p\u003e\r\n\r\n\u003cp\u003eBTCUSD is bearish in the 4-hour chart since the price reached new ATH but only with three waves, so ideally that was big wave B as part of a big flat or a triangle formation, which means that we are now trading in wave C with room for more weakness in the near future as rally from 43400 unfolded in three waves that ideally belongs to a wave (4). A broken trendline decisively can be another confirmation for further weakness within wave (5) towards 40k area or lower.\u003c/p\u003e\r\n",
+    "published_to_iu_at": "2023-03-31T06:54:38.600Z",
+    "charts": [
+      {
+        "id": 38359,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdGFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--54bdfd5c067353b1fe6ba9115c7f092a2e4acf6c/4h%20btcusd%20mar%2031%202023.png",
+        "title": "4H",
+        "created_at": "2023-03-31T06:54:26.136Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 37221,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbVNSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d36419639ed7b057e54194ebf3dcbe5002afc4f5/btcusd%20mar%2015%202023%20d.png",
+        "title": "D",
+        "created_at": "2023-03-15T07:10:03.602Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 37222,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbVdSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c59d03e761fd8512ac40786754ec9b3e884cc452/btcusd%20mar%2015%202023%20d%202.png",
+        "title": "D2",
+        "created_at": "2023-03-15T07:10:03.606Z",
+        "bias": {
+          "id": 7,
+          "key": "bias7",
+          "description": "Price could stay sideways for few more sessions before breaks lower, out of the range and beneath the support level. You will probably see this arrow when we will be tracking triangle count."
+        }
+      },
+      {
+        "id": 34718,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDJIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--65cc7de175aea3cd6e87ecaf0c6e3f7cec985cfa/monhtly%20btcusd%20feb%2006%202023.png",
+        "title": "M",
+        "created_at": "2023-02-06T06:57:54.969Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      },
+      {
+        "id": 34717,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcHlIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--643ec4479aff84fe6aa7009db64d9cad2498fe03/monthly%20btcusdTECH%20feb%2006%202023.png",
+        "title": "TECH M",
+        "created_at": "2023-02-06T06:57:54.965Z",
+        "bias": {
+          "id": 2,
+          "key": "bias2",
+          "description": "Market is trading higher but it could make a pull-back before uptrend resumes. Pull-back could represent wave four, or any other corrective wave within ongoing trend."
+        }
+      },
+      {
+        "id": 34719,
+        "chart_url": "https://api.wavetraders.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDZIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0b47757261b720b083734c627bfcf8c5dfd5af2f/weekly%20btcusdRSI%20feb%2006%202023.png",
+        "title": "RSI W",
+        "created_at": "2023-02-06T06:57:54.972Z",
+        "bias": {
+          "id": 4,
+          "key": "bias4",
+          "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+        }
+      }
+    ],
+    "bias": {
+      "key": "bias4",
+      "description": "Market is falling, but our wave prediction suggests that market could find a low and reverse higher. You will typically see this arrow when we will be tracking final stages of a corrective drop or final stages of a bearish impulse."
+    },
+    "markets": [{ "id": 2, "name": "FX", "slug": "forex" }],
+    "intraday_updates": [
+      { "id": 9970 },
+      { "id": 10107 },
+      { "id": 10057 },
+      { "id": 10082 },
+      { "id": 10214 },
+      { "id": 10163 },
+      { "id": 10193 },
+      { "id": 10000 },
+      { "id": 10140 }
+    ]
+  }
+]

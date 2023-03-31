@@ -262,7 +262,7 @@
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                         fill="currentColor"
-                        class="w-5 h-5 cursor-pointer ml-3 text-[#3d88aa]"
+                        class="hidden w-5 h-5 cursor-pointer ml-3 text-[#3d88aa]"
                       >
                         <path
                           fill-rule="evenodd"
@@ -270,6 +270,41 @@
                           clip-rule="evenodd"
                         />
                       </svg>
+
+                      <div class="title-arrow cursor-pointer relative ml-5">
+                        <span
+                          class="tab-information shadow-md z-50 hidden absolute text-xs text-gray-600 top-5 left-[-50px] rounded p-2 w-[180px] border-[1px] bg-white"
+                          >Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Sed ac lacus auctor Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit.</span
+                        >
+                        <svg
+                          data-v-2dc54a20=""
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 26 26"
+                          class="mdl-js"
+                        >
+                          <g
+                            data-v-2dc54a20=""
+                            fill="none"
+                            fill-rule="evenodd"
+                            stroke="#353B40"
+                            stroke-width="2.028"
+                          >
+                            <path
+                              data-v-2dc54a20=""
+                              d="M0 0L6.986 0 6.986 6.901"
+                              transform="translate(17 11)"
+                            ></path>
+                            <path
+                              data-v-2dc54a20=""
+                              d="M0.241 4L15.127 20.227 24 11"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                   <div
@@ -640,13 +675,12 @@
     </div>
     <div
       class="right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-blue-700"
-    >
-      RIGHT
-    </div>
+    ></div>
   </div>
 </template>
 <style scoped>
-.tab-right:hover .hidden {
+.tab-right:hover .hidden,
+.title-arrow:hover .hidden {
   display: block;
 }
 </style>
@@ -668,6 +702,7 @@ import {
   StarIcon,
 } from "@heroicons/vue/24/outline";
 import { StarIcon as SolidStartIcon } from "@vue-hero-icons/solid";
+import Fobbex from "../store/fobbex.json";
 
 import { computed } from "vue";
 import store from "../store/";

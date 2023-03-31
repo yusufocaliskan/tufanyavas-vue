@@ -172,17 +172,7 @@
     <div
       class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen bg-red-500"
     >
-      <div
-        class="content-menu hidden lg:block lg:w-1/5 md:w-1/5 xl:w-1/5 h-screen overflow-y-auto bg-green-600"
-      >
-        <ul>
-          <li><a href="#">ALL FAV</a></li>
-        </ul>
-      </div>
-      <!-- content:menu -->
-      <div
-        class="main-content flex w-full sm:w-5/5 lg:w-4/5 md:w-5/5 xl:w-4/5 overflow-y-auto bg-yellow-400"
-      >
+      <div class="main-content w-full overflow-y-auto bg-yellow-400">
         <!-- Sub Categories -->
         <div class="sub-categories flex w-full h-16 pt-2 sm:block bg-white">
           <div class="flex justify-center space-x-4">
@@ -201,6 +191,14 @@
             >
           </div>
         </div>
+        <div
+          class="content-menu hidden lg:block lg:w-1/5 md:w-1/5 xl:w-1/5 h-screen overflow-y-auto bg-green-600"
+        >
+          <ul>
+            <li><a href="#">ALL FAV</a></li>
+          </ul>
+        </div>
+        <!-- content:menu -->
       </div>
       <!-- main:content -->
     </div>

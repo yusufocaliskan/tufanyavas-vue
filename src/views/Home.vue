@@ -135,7 +135,7 @@
       class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen bg-red-500"
     >
       <div
-        class="conten-menu flex w-full lg:w-1/5 md:w-1/5 xl:w-1/5 bg-green-600"
+        class="content-menu hidden lg:block lg:w-1/5 md:w-1/5 xl:w-1/5 h-screen overflow-y-auto bg-green-600"
       >
         <ul>
           <li><a href="#">ALL FAV</a></li>
@@ -143,14 +143,14 @@
       </div>
       <!-- content:menu -->
       <div
-        class="main-content flex w-full lg:w-4/5 md:w-4/5 xl:w-4/5 bg-yellow-400"
+        class="main-content flex w-full sm:w-5/5 lg:w-4/5 md:w-5/5 xl:w-4/5 overflow-y-auto bg-yellow-400"
       >
         CONTENT
       </div>
       <!-- main:content -->
     </div>
     <div
-      class="right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen bg-blue-700"
+      class="right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-blue-700"
     >
       RIGHT
     </div>

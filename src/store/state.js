@@ -1,8 +1,8 @@
 export default {
   navigation: [
-    { name: "Forex", href: "#", current: true },
-    { name: "Crypto", href: "#", current: false },
-    { name: "Elliot Wave School", href: "#", current: false },
+    { name: "Forex", href: "/", current: true },
+    { name: "Crypto", href: "/crypto", current: false },
+    { name: "Elliot Wave School", href: "/elliotwaveschool", current: false },
   ],
   sub_categories: [
     { name: "Charts", href: "#", current: true },

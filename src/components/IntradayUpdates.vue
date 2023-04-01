@@ -45,25 +45,7 @@
       <div class="flex post-header items-center">
         <div class="flex w-4/5 space-x-3 items-center">
           <h1 class="font-bold">USDNOK</h1>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="19"
-            height="19"
-            viewBox="0 0 19 19"
-            class="mdl-js"
-          >
-            <g fill="none" fill-rule="evenodd">
-              <path stroke="#32B5B5" stroke-width="1.2" d="M0 0H19.2V19.2H0z" />
-              <text
-                fill="#32B5B5"
-                font-family="CircularStd-Bold, Circular Std"
-                font-size="9.874"
-                font-weight="bold"
-              >
-                <tspan x="3.661" y="13.474">FX</tspan>
-              </text>
-            </g>
-          </svg>
+          <FXIcon />
         </div>
         <div class="w-1/5">
           <span class="flex text-sm text-gray-500 intraday-post-time"
@@ -96,20 +78,8 @@
               >21h</span
             >
             <span class="absolute right-1 bottom-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                viewBox="0 0 14 14"
-                class="mdl-js"
-              >
-                <g fill="none" fill-rule="evenodd">
-                  <path fill="#3583A7" d="M0 0h14v14H0z" />
-                  <g stroke="#FFF">
-                    <path d="M7 3.5v7M3.5 7h7" />
-                  </g>
-                </g></svg
-            ></span>
+              <PlusIcon />
+            </span>
           </div>
         </div>
       </div>
@@ -412,4 +382,6 @@
 </template>
 <script setup>
 import SearchBox from "./SearchBox.vue";
+import FXIcon from "./icons/FXIcon.vue";
+import PlusIcon from "./icons/PlusIcon.vue";
 </script>

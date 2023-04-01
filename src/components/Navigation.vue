@@ -29,18 +29,14 @@
           </div>
           <div class="hidden flex-auto sm:ml-6 sm:block">
             <div class="flex justify-center space-x-4">
-              <a
+              <router-link
                 v-for="item in navigation"
                 :key="item.name"
-                :href="item.href"
-                :class="[
-                  item.current
-                    ? ' py-5 border-b-[3px] text-[#3583a7] border-[#3583a7]'
-                    : 'text-black hover:text-[#3583a7] hover:border-b-[3px] hover:border-[#3583a7] ',
-                  'py-5 px-10 text-sm font-medium',
-                ]"
+                exact-active-class="IS-ACTIVATED py-5 border-b-[3px] text-[#3583a7] border-[#3583a7]"
+                :to="item.href"
+                :class="'py-5 px-10 text-sm font-medium text-black hover:text-[#3583a7] hover:border-b-[3px] hover:border-[#3583a7]'"
                 :aria-current="item.current ? 'page' : undefined"
-                >{{ item.name }}</a
+                >{{ item.name }}</router-link
               >
             </div>
           </div>
@@ -192,4 +188,5 @@ import { computed } from "vue";
 import store from "../store/";
 
 const navigation = computed(() => store.state.navigation);
+const left_categories = computed(() => store.state.left_categories);
 </script>

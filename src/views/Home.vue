@@ -1,5 +1,4 @@
 <template>
-  <Navigation />
   <div id="content" class="flex flex-wrap">
     <div
       class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen"

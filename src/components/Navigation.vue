@@ -32,7 +32,7 @@
               <router-link
                 v-for="item in navigation"
                 :key="item.name"
-                exact-active-class="IS-ACTIVATED py-5 border-b-[3px] text-[#3583a7] border-[#3583a7]"
+                exact-active-class="py-5 border-b-[3px] text-[#3583a7] border-[#3583a7]"
                 :to="item.href"
                 :class="'py-5 px-10 text-sm font-medium text-black hover:text-[#3583a7] hover:border-b-[3px] hover:border-[#3583a7]'"
                 :aria-current="item.current ? 'page' : undefined"

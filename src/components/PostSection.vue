@@ -6,8 +6,8 @@
           <h1 class="text-xl font-bold">EURUSD</h1>
 
           <div class="post-star flex">
-            <Start />
-            <StartFilled />
+            <Star />
+            <StarFilled />
 
             <div class="title-arrow cursor-pointer relative ml-5">
               <span
@@ -137,7 +137,7 @@
           </ul>
 
           <div class="post-graphic">
-            <img src="../../public/eurusd.png" class="mt-10" />
+            <img src="/eurusd.png" class="mt-10" />
           </div>
 
           <div
@@ -190,6 +190,6 @@ import Arrow5 from "./icons/Arrow5.vue";
 import Arrow6 from "./icons/Arrow6.vue";
 import Arrow7 from "./icons/Arrow7.vue";
 import Arrow8 from "./icons/Arrow8.vue";
-import Start from "./icons/Start.vue";
-import StartFilled from "./icons/StartFilled.vue";
+import Star from "./icons/Star.vue";
+import StarFilled from "./icons/StarFilled.vue";
 </script>

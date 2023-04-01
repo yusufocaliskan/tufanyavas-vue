@@ -39,7 +39,7 @@
     </div>
 
     <div class="intraday-searchbox flex p-3">
-      <SearchBox inputClass="w-full p-3 bg-gray-200" />
+      <!-- <SearchBox :data="input_data" inputClass="w-full p-3 bg-gray-200" />-->
     </div>
     <div class="intraday-post p-5 border-b-[1px] border-gray-200">
       <div class="flex post-header items-center">
@@ -381,7 +381,10 @@
   </div>
 </template>
 <script setup>
+import { ref } from "vue";
 import SearchBox from "./SearchBox.vue";
 import FXIcon from "./icons/FXIcon.vue";
 import PlusIcon from "./icons/PlusIcon.vue";
+
+const input_data = ref({ value: "" });
 </script>

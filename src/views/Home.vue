@@ -8,7 +8,7 @@
 
         <div class="content-wrapper flex">
           <div
-            class="content-menu hidden border-r-[1px] lg:block lg:w-1/5 h-screen overflow-y-auto bg-green-600"
+            class="content-menu hidden border-r-[1px] lg:block lg:w-1/5 h-screen overflow-y-auto"
           >
             <Instruments />
           </div>

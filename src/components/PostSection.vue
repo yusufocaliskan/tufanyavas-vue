@@ -1,9 +1,13 @@
 <template>
   <div class="post-section">
-    <div class="post flex border-b-[1px] pb-10">
+    <div
+      v-for="item in Fobbex"
+      :key="item.id"
+      class="post flex border-b-[1px] pb-10 mb-10"
+    >
       <div class="post-left w-full">
         <div class="post-title flex items-center">
-          <h1 class="text-xl font-bold">EURUSD</h1>
+          <h1 class="text-xl font-bold">{{ item.name }}</h1>
 
           <div class="post-star flex">
             <Star />
@@ -26,112 +30,22 @@
         <div class="post-body text-gray-700">
           <ul class="flex-wrap">
             <li
+              v-for="chart in item.charts"
+              :key="chart.id"
               class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
             >
               <div class="tab-left w-2/3 flex flex-col">
-                <span class="text-xs font-bold">4H</span>
+                <span class="text-xs font-bold">{{ chart.title }}</span>
                 <span class="text-xs font-thin">1d</span>
               </div>
 
               <div class="tab-right w-1/3 relative">
                 <span
                   class="tab-information shadow-md z-50 hidden absolute text-xs text-gray-600 top-5 left-[-50px] rounded p-2 w-[180px] border-[1px] bg-white"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  ac lacus auctor Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit.</span
+                  >{{ chart.bias.description }}</span
                 >
-                <Arrow1 />
-              </div>
-            </li>
 
-            <li
-              class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
-            >
-              <div class="tab-left w-2/3 flex flex-col">
-                <span class="text-xs font-bold">4H</span>
-                <span class="text-xs font-thin">1d</span>
-              </div>
-
-              <div class="tab-right relative w-1/3">
-                <span
-                  class="tab-information shadow-md z-50 hidden absolute text-xs text-gray-600 top-5 left-[-50px] rounded p-2 w-[180px] border-[1px] bg-white"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  ac lacus auctor Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit.</span
-                >
-                <Arrow2 />
-              </div>
-            </li>
-            <li
-              class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
-            >
-              <div class="tab-left w-2/3 flex flex-col">
-                <span class="text-xs font-bold">4H</span>
-                <span class="text-xs font-thin">1d</span>
-              </div>
-
-              <div class="tab-right relative w-1/3">
-                <Arrow3 />
-              </div>
-            </li>
-            <li
-              class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
-            >
-              <div class="tab-left w-2/3 flex flex-col">
-                <span class="text-xs font-bold">4H</span>
-                <span class="text-xs font-thin">1d</span>
-              </div>
-
-              <div class="tab-right relative w-1/3">
-                <Arrow4 />
-              </div>
-            </li>
-            <li
-              class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
-            >
-              <div class="tab-left w-2/3 flex flex-col">
-                <span class="text-xs font-bold">4H</span>
-                <span class="text-xs font-thin">1d</span>
-              </div>
-
-              <div class="tab-right relative w-1/3">
-                <Arrow5 />
-              </div>
-            </li>
-            <li
-              class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
-            >
-              <div class="tab-left w-2/3 flex flex-col">
-                <span class="text-xs font-bold">4H</span>
-                <span class="text-xs font-thin">1d</span>
-              </div>
-
-              <div class="tab-right relative w-1/3">
-                <Arrow6 />
-              </div>
-            </li>
-            <li
-              class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
-            >
-              <div class="tab-left w-2/3 flex flex-col">
-                <span class="text-xs font-bold">4H</span>
-                <span class="text-xs font-thin">1d</span>
-              </div>
-
-              <div class="tab-right relative w-1/3">
-                <Arrow7 />
-              </div>
-            </li>
-            <li
-              class="w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]"
-            >
-              <div class="tab-left w-2/3 flex flex-col">
-                <span class="text-xs font-bold">4H</span>
-                <span class="text-xs font-thin">1d</span>
-              </div>
-
-              <div class="tab-right relative w-1/3">
-                <Arrow8 />
+                <component :is="biasArrows[chart.bias.id]" />
               </div>
             </li>
           </ul>
@@ -181,6 +95,12 @@
     </div>
   </div>
 </template>
+<style scoped>
+.tab-right:hover .hidden,
+.title-arrow:hover .hidden {
+  display: block;
+}
+</style>
 <script setup>
 import Arrow1 from "./icons/Arrow1.vue";
 import Arrow2 from "./icons/Arrow2.vue";
@@ -192,4 +112,17 @@ import Arrow7 from "./icons/Arrow7.vue";
 import Arrow8 from "./icons/Arrow8.vue";
 import Star from "./icons/Star.vue";
 import StarFilled from "./icons/StarFilled.vue";
+import Fobbex from "../store/fobbex.json";
+
+const biasArrows = {
+  9: Arrow1,
+  1: Arrow1,
+  2: Arrow2,
+  3: Arrow3,
+  4: Arrow4,
+  5: Arrow5,
+  6: Arrow6,
+  7: Arrow7,
+  8: Arrow8,
+};
 </script>

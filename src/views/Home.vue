@@ -30,12 +30,6 @@
     <!-- Intraday Updates -->
   </div>
 </template>
-<style scoped>
-.tab-right:hover .hidden,
-.title-arrow:hover .hidden {
-  display: block;
-}
-</style>
 
 <script setup>
 import {

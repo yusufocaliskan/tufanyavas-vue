@@ -86,7 +86,11 @@
           <div
             class="intraday-graphic relative flex w-[80px] h-[70px] cursor-pointer border-[1px] border-gray-200 rounded over"
           >
-            <img :src="item.charts[0].chart_url" class="w-[80px] h-[70px]" />
+            <img
+              :src="item.charts[0].chart_url"
+              @error="brokenImage"
+              class="w-[80px] h-[70px]"
+            />
             <span
               class="text-[#3583a7] text-xs font-bold absolute top-1 left-1"
               >{{ item.charts[0].title }}</span
@@ -126,4 +130,12 @@ import PlusIcon from "./icons/PlusIcon.vue";
 import Fobbex from "../store/fobbex.json";
 
 const input_data = ref({ value: "" });
+
+/**
+ * Image url bozuksa
+ * @param {object} event
+ */
+function brokenImage(event) {
+  event.target.src = "no-image.jpg";
+}
 </script>

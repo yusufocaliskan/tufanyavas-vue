@@ -27,7 +27,11 @@
   </ul>
 
   <div class="post-graphic">
-    <img :src="data[activeTabIndex].chart_url" class="mt-10" />
+    <img
+      :src="data[activeTabIndex].chart_url"
+      @error="brokenImage"
+      class="mt-10"
+    />
   </div>
 </template>
 <script setup>
@@ -57,4 +61,12 @@ const props = defineProps({
   data: Object,
 });
 const activeTabIndex = ref(0);
+
+/**
+ * Image url bozuksa
+ * @param {object} event
+ */
+function brokenImage(event) {
+  event.target.src = "no-image.jpg";
+}
 </script>

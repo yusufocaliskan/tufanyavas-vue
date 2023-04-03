@@ -8,26 +8,27 @@
   <!--end: search-box -->
   <div class="instruments left-content-menu flex overflow-y-auto">
     <ul class="flex flex-col w-50">
-      <li
-        class="flex border-b-[1px] items-center text-sm bg-white hover:bg-[#3d88aa] hover:text-white"
-        v-for="item in list_data"
-        :key="item.id"
-      >
-        <Star v-if="item.stared == false" />
-        <StarFilled v-if="item.stared == true" />
-
-        <a class="flex font-bold w-60 text-neutral-900 p-4" href="#">
-          {{ item.name }}</a
-        >
-      </li>
-      <li @click.prevent="($event) => go_back">
+      <li @click="go_back" v-if="input_data.value != ''">
         <a
-          class="text-sm flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
+          class="text-sm cursor-pointer flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
           href="#"
         >
           <BackArrow class="mr-5" /> GO BACK</a
         >
       </li>
+      <li
+        class="flex border-b-[1px] items-center text-sm bg-white hover:bg-[#3d88aa] hover:text-white"
+        v-for="item in list_data"
+        :key="item.id"
+      >
+        <!-- <Star v-if="item.stared == false" />
+        <StarFilled v-if="item.stared == true" /> -->
+
+        <a class="flex font-bold w-60 text-neutral-900 p-4" href="#">
+          {{ item.name }}</a
+        >
+      </li>
+
       <li class="flex" v-if="list_data.length == 0">
         <span
           class="items-center font-regular flex justify-center p-3 text-gray-400"
@@ -61,11 +62,10 @@ const search_for = computed(() => {
 /**
  * Arama yapıldıktan sonra gider
  */
-const go_back = computed(() => {
-  console.log("fdsfs");
+const go_back = () => {
   input_data.value.value = "";
-  list_data = Fobbex;
-});
+  list_data = ref(Fobbex);
+};
 
 /**
  * Keyword'e göre filtler..

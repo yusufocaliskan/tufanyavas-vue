@@ -1,4 +1,7 @@
 <template>
+  <Modal :isModalActive="isModalActive" @close="isModalActive = false">
+    <IntradayUpdateModalPost />
+  </Modal>
   <div id="content" class="flex flex-wrap">
     <div
       class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen"
@@ -32,24 +35,8 @@
 </template>
 
 <script setup>
-import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
-} from "@headlessui/vue";
-import {
-  Bars3Icon,
-  BellIcon,
-  XMarkIcon,
-  StarIcon,
-} from "@heroicons/vue/24/outline";
-import { StarIcon as SolidStartIcon } from "@vue-hero-icons/solid";
-import { computed } from "vue";
-import store from "../store/";
+import { computed, inject, ref } from "vue";
+// import store from "../store/";
 
 //components
 import Navigation from "../components/Navigation.vue";
@@ -57,8 +44,14 @@ import Instruments from "../components/Instruments.vue";
 import PostSection from "../components/PostSection.vue";
 import IntradayUpdates from "../components/IntradayUpdates.vue";
 import Fobbex from "../store/fobbex.json";
+import Modal from "../components/Modal.vue";
+import IntradayUpdateModalPost from "../components/IntradayUpdateModalPost.vue";
 
-const navigation = computed(() => store.state.navigation);
-const sub_categories = computed(() => store.state.sub_categories);
-const left_categories = computed(() => store.state.left_categories);
+const isModalActive = ref(false);
+const openModal = () => {
+  isModalActive.value = true;
+};
+// const navigation = computed(() => store.state.navigation);
+// const sub_categories = computed(() => store.state.sub_categories);
+// const left_categories = computed(() => store.state.left_categories);
 </script>

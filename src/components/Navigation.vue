@@ -181,7 +181,6 @@ import {
   XMarkIcon,
   StarIcon,
 } from "@heroicons/vue/24/outline";
-import { StarIcon as SolidStartIcon } from "@vue-hero-icons/solid";
 import Fobbex from "../store/fobbex.json";
 
 import { computed } from "vue";

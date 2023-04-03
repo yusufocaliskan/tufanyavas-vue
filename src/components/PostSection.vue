@@ -1,4 +1,7 @@
 <template>
+  <Modal :isModalActive="isModalActive" @close="isModalActive = false">
+    <IntradayUpdateModalPost :intradayUpdates="intraday_updates" />
+  </Modal>
   <div class="post-section">
     <div
       v-for="item in Fobbex"
@@ -32,7 +35,7 @@
           <div class="flex mt-5">
             <a
               href=""
-              @click.prenvet="openModal"
+              @click.prevent="openModal(item.intraday_updates)"
               class="text-[#3d88aa] hover:text-[#56a8ce]"
               >View Intraday Updates</a
             >
@@ -99,8 +102,33 @@ import CloseIcon from "./icons/CloseIcon.vue";
 import StarFilled from "./icons/StarFilled.vue";
 import Fobbex from "../store/fobbex.json";
 import Tabs from "../components/Tabs.vue";
+import IntradayUpdateModalPost from "../components/IntradayUpdateModalPost.vue";
+import Modal from "../components/Modal.vue";
 import { ref } from "vue";
+const intraday_updates = ref([]);
+const isModalActive = ref(false);
+function setIntradayUpdates(updates) {
+  console.log(updates);
+  $emit("intradayUpdates", updates);
+}
 
+/**
+ * Modal'ı aç ve verileri göster.
+ * @param {object} updates
+ */
+function openModal(updates) {
+  isModalActive.value = true;
+  intraday_updates.value = getData(updates);
+}
+
+/**
+ * Denk verileri serverdan çek ve listele..
+ * @param {*} data
+ */
+function getData(data) {
+  return data;
+}
+//icons
 const biasArrowsMap = {
   bias9: Arrow1,
   bias1: Arrow1,

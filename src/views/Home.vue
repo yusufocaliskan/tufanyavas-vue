@@ -1,7 +1,4 @@
 <template>
-  <Modal :isModalActive="isModalActive" @close="isModalActive = false">
-    <IntradayUpdateModalPost />
-  </Modal>
   <div id="content" class="flex flex-wrap">
     <div
       class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen"
@@ -35,7 +32,7 @@
 </template>
 
 <script setup>
-import { computed, inject, ref } from "vue";
+import { ref } from "vue";
 // import store from "../store/";
 
 //components
@@ -48,9 +45,16 @@ import Modal from "../components/Modal.vue";
 import IntradayUpdateModalPost from "../components/IntradayUpdateModalPost.vue";
 
 const isModalActive = ref(false);
-const openModal = () => {
-  isModalActive.value = true;
-};
+const getIntradayUpdates = ref([]);
+
+/**
+ * Child Component'ten intraday-updates id'leri alır.
+ * @param {object} updates
+ */
+function setIntradayUpdates(updates) {
+  getIntradayUpdates.value = updates;
+}
+
 // const navigation = computed(() => store.state.navigation);
 // const sub_categories = computed(() => store.state.sub_categories);
 // const left_categories = computed(() => store.state.left_categories);

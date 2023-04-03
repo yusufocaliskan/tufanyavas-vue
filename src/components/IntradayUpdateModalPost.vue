@@ -1,5 +1,9 @@
 <template>
-  <div class="intraday-post flex p-10 mb-5 border-b-[1px] border-b-gray-200">
+  <div
+    v-for="item in intradayUpdates"
+    :key="item"
+    class="intraday-post flex p-10 mb-5 border-b-[1px] border-b-gray-200"
+  >
     <div class="w-1/2">
       <div class="post-title flex items-center">
         <h1 class="text-xl font-bold">EURUSD</h1>
@@ -22,6 +26,10 @@
     <div class="w-1/2"><img src="eurusd.png" /></div>
   </div>
 </template>
-<script>
+<script setup>
 import Star from "./icons/Star.vue";
+import { defineProps } from "vue";
+const props = defineProps({
+  intradayUpdates: Object,
+});
 </script>

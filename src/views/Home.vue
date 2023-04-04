@@ -1,4 +1,71 @@
 <template>
+  <div class="flex">
+    <div class="w-10/12">
+      <div
+        class="mobile-selectbox-menu shadow-lg text-lg font-bold border-b-[1px] border-gray-600"
+      >
+        <div
+          class="p-5 bg-white relative dark:bg-[#34393e]"
+          @click.prevent="openModal"
+        >
+          {{ selectedPost }}
+          <ArrowDown class="absolute top-6 right-5" />
+        </div>
+        <Modal :isModalActive="isModalActive" @close="isModalActive = false">
+          <div
+            class="instruments left-content-menu flex overflow-y-auto dark:bg-[#34393e]"
+          >
+            <ul class="flex flex-col w-50">
+              <li @click="go_back" v-if="input_data.value != ''">
+                <a
+                  class="text-sm cursor-pointer dark:text-white flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
+                  href="#"
+                >
+                  <BackArrow class="mr-5" /> GO BACK</a
+                >
+              </li>
+              <li
+                class="flex border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-500 hover:bg-[#3d88aa] hover:text-white"
+                @click.prevent="setPostIndex(index, item)"
+                v-for="(item, index) in list_data"
+                :key="item.id"
+              >
+                <!-- <Star v-if="item.stared == false" />
+                  <StarFilled v-if="item.stared == true" /> -->
+
+                <a
+                  class="flex font-bold w-60 dark:text-white text-neutral-900 p-4"
+                  href="#"
+                >
+                  {{ item.name }}</a
+                >
+              </li>
+
+              <li class="flex" v-if="list_data.length == 0">
+                <span
+                  class="items-center font-regular flex justify-center p-3 text-gray-400"
+                >
+                  <NoResult class="mr-2" /> No result</span
+                >
+              </li>
+            </ul>
+          </div>
+        </Modal>
+      </div>
+    </div>
+    <div class="w-2/12 bg-[#34393e]">
+      <a
+        href="#intraday-updates"
+        class="open-mobile-intraday-updates relative items-center flex justify-center h-[100%] border-l-[1px] border-gray-600 border-b-[1px] cursor-pointer hover:bg-gray-500"
+      >
+        <span
+          class="red-dot w-2 h-2 bg-red-600 rounded-lg top-5 right-5 absolute"
+        ></span>
+        <ThunderBoltIcon class="w-6 h-6" />
+      </a>
+      <div class="mobil-intraday-updates"></div>
+    </div>
+  </div>
   <div id="content" class="flex flex-wrap dark:bg-[#34393e]">
     <div
       class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen"
@@ -65,6 +132,7 @@
       <!-- main:content -->
     </div>
     <div
+      id="intraday-updates"
       class="right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5] dark:bg-[#34393e] dark:border-l-[1px] dark:border-gray-600"
     >
       <IntradayUpdates />
@@ -91,6 +159,8 @@ import StarFilled from "../components/icons/StarFilled.vue";
 import NoResult from "../components/icons/NoResult.vue";
 import BackArrow from "../components/icons/BackArrow.vue";
 import { filteredItems } from "../utils/helper";
+import ArrowDown from "../components/icons/ArrowDown.vue";
+import ThunderBoltIcon from "../components/icons/ThunderBoltIcon.vue";
 //Instrumentslerden arama yapıldığında.
 //veriyi tutar
 const input_data = ref({
@@ -118,13 +188,20 @@ const getIntradayUpdates = ref([]);
 
 //post ref
 const postSection = ref();
+const selectedPost = ref("ALL");
+
+function openModal() {
+  isModalActive.value = true;
+}
 
 function scroll2ThePost() {
   console.log("HOME SCROOLL");
 }
 
-function setPostIndex(itemIndex) {
+function setPostIndex(itemIndex, item) {
   postSection.value.scroll2ThePost(itemIndex);
+  isModalActive.value = false;
+  selectedPost.value = item.name;
 }
 
 /**

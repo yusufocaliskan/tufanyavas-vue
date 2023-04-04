@@ -7,10 +7,8 @@
         class="absolute right-5 top-5 w-[30px] h-[30px] text-gray-500 hover:text-red-400 cursor-pointer"
         @click="close"
       />
-      <div class="modal-body">
-        <div class="modal-intraday-updates p-10">
-          <slot></slot>
-        </div>
+      <div class="modal-body p-10">
+        <slot></slot>
       </div>
     </div>
   </div>
@@ -55,5 +53,15 @@ export default {
   /* max-width: 1120px; */
   margin: 0 auto;
   position: relative;
+}
+@media (max-width: 480px) {
+  .modal {
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .modal {
+    padding: 20px 20px;
+  }
 }
 </style>

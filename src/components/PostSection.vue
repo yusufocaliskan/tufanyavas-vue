@@ -95,7 +95,7 @@ function scroll2ThePost(itemIdex) {
   const postList = this.$refs.postList;
   const postContainer = this.$refs.postContainer;
   const postIndex = postList[itemIdex];
-  const postOffset = postIndex.offsetTop;
+  const postOffset = postIndex.offsetTop + 50;
   // const firstPostOffset = postList[0].offsetTop;
   // const scrollOffset = postOffset - firstPostOffset;
   postContainer.scrollTo({

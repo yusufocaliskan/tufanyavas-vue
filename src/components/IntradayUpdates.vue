@@ -7,7 +7,7 @@
       <a
         class="flex justify-center w-1/2 items-center text-[#39769f] border-b-[3px] border-[#39769f] p-6 text-sm font-bold dark:text-[#51a4dc]"
       >
-        <ThuderBoltIcon />
+        <ThunderBoltIcon />
         Intraday Updates
       </a>
     </div>
@@ -92,7 +92,7 @@ import { ref, computed } from "vue";
 import SearchBox from "./SearchBox.vue";
 import FXIcon from "./icons/FXIcon.vue";
 import PlusIcon from "./icons/PlusIcon.vue";
-import ThuderBoltIcon from "./icons/ThuderBoltIcon.vue";
+import ThunderBoltIcon from "./icons/ThunderBoltIcon.vue";
 import Fobbex from "../store/fobbex.json";
 import { filteredItems } from "../utils/helper";
 import Modal from "./Modal.vue";

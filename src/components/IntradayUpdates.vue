@@ -5,7 +5,7 @@
   <div class="flex sm:block border-[1px] border-b-gray dark:border-gray-600">
     <div class="flex space-x-4">
       <a
-        class="flex justify-center w-1/2 items-center text-[#39769f] border-b-[3px] border-[#39769f] p-6 text-sm font-bold dark:text-[#51a4dc]"
+        class="flex justify-center w-2/2 items-center text-[#39769f] border-b-[3px] border-[#39769f] p-6 text-sm font-bold dark:text-[#51a4dc]"
       >
         <ThunderBoltIcon />
         Intraday Updates

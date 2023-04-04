@@ -1,69 +1,71 @@
 <template>
-  <div class="flex">
-    <div class="w-10/12">
-      <div
-        class="mobile-selectbox-menu shadow-lg text-lg font-bold border-b-[1px] border-gray-600"
-      >
+  <div class="top-mobile-menu lg:hidden md:hidden">
+    <div class="flex">
+      <div class="w-10/12">
         <div
-          class="p-5 bg-white relative dark:bg-[#34393e]"
-          @click.prevent="openModal"
+          class="mobile-selectbox-menu shadow-lg text-lg font-bold border-b-[1px] border-gray-600"
         >
-          {{ selectedPost }}
-          <ArrowDown class="absolute top-6 right-5" />
-        </div>
-        <Modal :isModalActive="isModalActive" @close="isModalActive = false">
           <div
-            class="instruments left-content-menu flex overflow-y-auto dark:bg-[#34393e]"
+            class="p-5 bg-white relative dark:bg-[#34393e]"
+            @click.prevent="openModal"
           >
-            <ul class="flex flex-col w-50">
-              <li @click="go_back" v-if="input_data.value != ''">
-                <a
-                  class="text-sm cursor-pointer dark:text-white flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
-                  href="#"
+            {{ selectedPost }}
+            <ArrowDown class="absolute top-6 right-5" />
+          </div>
+          <Modal :isModalActive="isModalActive" @close="isModalActive = false">
+            <div
+              class="instruments left-content-menu flex overflow-y-auto dark:bg-[#34393e]"
+            >
+              <ul class="flex flex-col w-50">
+                <li @click="go_back" v-if="input_data.value != ''">
+                  <a
+                    class="text-sm cursor-pointer dark:text-white flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
+                    href="#"
+                  >
+                    <BackArrow class="mr-5" /> GO BACK</a
+                  >
+                </li>
+                <li
+                  class="flex border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-500 hover:bg-[#3d88aa] hover:text-white"
+                  @click.prevent="setPostIndex(index, item)"
+                  v-for="(item, index) in list_data"
+                  :key="item.id"
                 >
-                  <BackArrow class="mr-5" /> GO BACK</a
-                >
-              </li>
-              <li
-                class="flex border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-500 hover:bg-[#3d88aa] hover:text-white"
-                @click.prevent="setPostIndex(index, item)"
-                v-for="(item, index) in list_data"
-                :key="item.id"
-              >
-                <!-- <Star v-if="item.stared == false" />
+                  <!-- <Star v-if="item.stared == false" />
                   <StarFilled v-if="item.stared == true" /> -->
 
-                <a
-                  class="flex font-bold w-60 dark:text-white text-neutral-900 p-4"
-                  href="#"
-                >
-                  {{ item.name }}</a
-                >
-              </li>
+                  <a
+                    class="flex font-bold w-60 dark:text-white text-neutral-900 p-4"
+                    href="#"
+                  >
+                    {{ item.name }}</a
+                  >
+                </li>
 
-              <li class="flex" v-if="list_data.length == 0">
-                <span
-                  class="items-center font-regular flex justify-center p-3 text-gray-400"
-                >
-                  <NoResult class="mr-2" /> No result</span
-                >
-              </li>
-            </ul>
-          </div>
-        </Modal>
+                <li class="flex" v-if="list_data.length == 0">
+                  <span
+                    class="items-center font-regular flex justify-center p-3 text-gray-400"
+                  >
+                    <NoResult class="mr-2" /> No result</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </Modal>
+        </div>
       </div>
-    </div>
-    <div class="w-2/12 bg-[#34393e]">
-      <a
-        href="#intraday-updates"
-        class="open-mobile-intraday-updates relative items-center flex justify-center h-[100%] border-l-[1px] border-gray-600 border-b-[1px] cursor-pointer hover:bg-gray-500"
-      >
-        <span
-          class="red-dot w-2 h-2 bg-red-600 rounded-lg top-5 right-5 absolute"
-        ></span>
-        <ThunderBoltIcon class="w-6 h-6" />
-      </a>
-      <div class="mobil-intraday-updates"></div>
+      <div class="w-2/12 bg-[#34393e]">
+        <a
+          href="#intraday-updates"
+          class="open-mobile-intraday-updates relative items-center flex justify-center h-[100%] border-l-[1px] border-gray-600 border-b-[1px] cursor-pointer hover:bg-gray-500"
+        >
+          <span
+            class="red-dot w-2 h-2 bg-red-600 rounded-lg top-5 right-5 absolute"
+          ></span>
+          <ThunderBoltIcon class="w-6 h-6" />
+        </a>
+        <div class="mobil-intraday-updates"></div>
+      </div>
     </div>
   </div>
   <div id="content" class="flex flex-wrap dark:bg-[#34393e]">

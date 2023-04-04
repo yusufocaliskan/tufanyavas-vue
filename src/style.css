@@ -9,3 +9,7 @@
 html.dark {
   color-scheme: dark;
 }
+
+img[lazy="loading"] {
+  width: 30px;
+}

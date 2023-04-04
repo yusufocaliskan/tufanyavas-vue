@@ -29,11 +29,20 @@
   </ul>
 
   <div class="post-graphic">
-    <img
-      :src="data[activeTabIndex].chart_url"
-      @error="brokenImage"
-      class="mt-10"
-    />
+    <div
+      class="flex items-center justify-center"
+      v-lazy-container="{
+        selector: 'img',
+        error: 'no-image.jpg',
+        loading: 'loading.gif',
+      }"
+    >
+      <img
+        :data-src="data[activeTabIndex].chart_url"
+        @error="brokenImage"
+        class="mt-10"
+      />
+    </div>
   </div>
 </template>
 <script setup>

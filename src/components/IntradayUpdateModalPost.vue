@@ -28,7 +28,6 @@
 </template>
 <script setup>
 import Star from "./icons/Star.vue";
-import { defineProps } from "vue";
 const props = defineProps({
   intradayUpdates: Object,
 });

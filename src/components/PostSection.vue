@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="post-time pb-5 pt-2 text-sm flex flex-col text-gray-400">
-            <span>{{ item.published_to_iu_at }}</span>
+            <span>{{ timeAgo(item.published_to_iu_at) }}</span>
           </div>
           <div class="post-body text-gray-700">
             <div class="tabs">
@@ -77,6 +77,8 @@ import UpdateNotes from "../components/UpdateNotes.vue";
 import IntradayUpdateModalPost from "../components/IntradayUpdateModalPost.vue";
 import Modal from "../components/Modal.vue";
 import { watch, ref, nextTick, onMounted, markRaw } from "vue";
+import { timeAgo } from "../utils/helper";
+
 const intraday_updates = ref([]);
 const isModalActive = ref(false);
 

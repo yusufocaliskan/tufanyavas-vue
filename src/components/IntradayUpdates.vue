@@ -49,7 +49,7 @@
         </div>
         <div class="w-1/5">
           <span class="flex text-sm text-gray-500 intraday-post-time">{{
-            item.published_to_iu_at
+            timeAgo(item.published_to_iu_at)
           }}</span>
         </div>
       </div>
@@ -97,6 +97,7 @@ import Fobbex from "../store/fobbex.json";
 import { filteredItems } from "../utils/helper";
 import Modal from "./Modal.vue";
 import IntradayUpdateModalPost from "./IntradayUpdateModalPost.vue";
+import { timeAgo } from "../utils/helper";
 //------------- Modal -------------
 const isModalActive = ref(false);
 const intraday_updates = ref([]);

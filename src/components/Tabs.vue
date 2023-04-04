@@ -12,7 +12,9 @@
     >
       <div class="tab-left w-2/3 flex flex-col">
         <span class="text-xs font-bold">{{ item.title }}</span>
-        <span class="text-xs font-thin">{{ item.created_at }}</span>
+        <span class="text-xs font-thin">{{
+          timeAgo(item.created_at, true)
+        }}</span>
       </div>
 
       <div class="tab-right w-1/3 relative">
@@ -21,7 +23,7 @@
           >{{ item.bias.description }}</span
         >
 
-        <component :is="biasArrowsMap[item.bias.key]" />
+        <component class="text-sm" :is="biasArrowsMap[item.bias.key]" />
       </div>
     </li>
   </ul>
@@ -44,7 +46,7 @@ import Arrow6 from "./icons/Arrow6.vue";
 import Arrow7 from "./icons/Arrow7.vue";
 import Arrow8 from "./icons/Arrow8.vue";
 import { ref } from "vue";
-
+import { timeAgo } from "../utils/helper";
 const biasArrowsMap = {
   bias9: Arrow1,
   bias1: Arrow1,
@@ -70,3 +72,10 @@ function brokenImage(event) {
   event.target.src = "no-image.jpg";
 }
 </script>
+
+<style scoped>
+.tab-right:hover .hidden,
+.title-arrow:hover .hidden {
+  display: block;
+}
+</style>

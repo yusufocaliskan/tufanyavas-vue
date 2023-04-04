@@ -1,5 +1,5 @@
 <template>
-  <Disclosure as="nav" class="bg-white-800" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-white dark:bg-[#34393e]" v-slot="{ open }">
     <div class="border-b-2 border-gray-100 mx-auto px-20 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -53,6 +53,7 @@
                   data-tooltip-target="tooltip-toggle"
                   type="button"
                   class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+                  @click.prevent="themeToggle()"
                 >
                   <svg
                     aria-hidden="true"
@@ -166,6 +167,8 @@
 </template>
 
 <script setup>
+import { useDark, useToggle } from "@vueuse/core";
+
 import {
   Disclosure,
   DisclosureButton,
@@ -175,16 +178,14 @@ import {
   MenuItem,
   MenuItems,
 } from "@headlessui/vue";
-import {
-  Bars3Icon,
-  BellIcon,
-  XMarkIcon,
-  StarIcon,
-} from "@heroicons/vue/24/outline";
-import Fobbex from "../store/fobbex.json";
+import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 import { computed } from "vue";
 import store from "../store/";
+
+//When theme mode is changed.
+const isDark = useDark();
+const themeToggle = useToggle(isDark);
 
 const navigation = computed(() => store.state.navigation);
 const left_categories = computed(() => store.state.left_categories);

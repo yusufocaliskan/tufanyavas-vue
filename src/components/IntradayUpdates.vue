@@ -1,4 +1,7 @@
 <template>
+  <Modal :isModalActive="isModalActive" @close="isModalActive = false">
+    <IntradayUpdateModalPost :intradayUpdates="intraday_updates" />
+  </Modal>
   <div class="flex sm:block border-[1px] border-b-gray">
     <div class="flex space-x-4">
       <a
@@ -42,25 +45,7 @@
       <div class="flex post-header items-center">
         <div class="flex w-4/5 space-x-3 items-center">
           <h1 class="font-bold">{{ item.name }}</h1>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="19"
-            height="19"
-            viewBox="0 0 19 19"
-            class="mdl-js"
-          >
-            <g fill="none" fill-rule="evenodd">
-              <path stroke="#32B5B5" stroke-width="1.2" d="M0 0H19.2V19.2H0z" />
-              <text
-                fill="#32B5B5"
-                font-family="CircularStd-Bold, Circular Std"
-                font-size="9.874"
-                font-weight="bold"
-              >
-                <tspan x="3.661" y="13.474">FX</tspan>
-              </text>
-            </g>
-          </svg>
+          <FXIcon />
         </div>
         <div class="w-1/5">
           <span class="flex text-sm text-gray-500 intraday-post-time">{{
@@ -82,6 +67,7 @@
               :src="item.charts[0].chart_url"
               @error="brokenImage"
               class="w-[80px] h-[70px]"
+              @click.prevent="openModal(item.intraday_updates)"
             />
             <span
               class="text-[#3583a7] text-xs font-bold absolute top-1 left-1"
@@ -93,7 +79,7 @@
               21h
             </span>
             <span class="absolute right-1 bottom-1">
-              <FXIcon />
+              <PlusIcon />
             </span>
           </div>
         </div>
@@ -109,10 +95,30 @@ import PlusIcon from "./icons/PlusIcon.vue";
 import ThuderBoltIcon from "./icons/ThuderBoltIcon.vue";
 import Fobbex from "../store/fobbex.json";
 import { filteredItems } from "../utils/helper";
+import Modal from "./Modal.vue";
+import IntradayUpdateModalPost from "./IntradayUpdateModalPost.vue";
+//------------- Modal -------------
+const isModalActive = ref(false);
+const intraday_updates = ref([]);
+/**
+ * Modal'ı aç ve verileri göster.
+ * @param {object} updates
+ */
+function openModal(updates) {
+  isModalActive.value = true;
+  intraday_updates.value = updates;
+}
 
+//------------------ Searching -------------
+//arana kelime
 const input_keyword = ref({ value: "" });
+
+//Listelenecek veri.
 let list_data = ref(Fobbex);
 
+/**
+ * Filterele
+ */
 const search_for = computed(() => {
   list_data = filteredItems(Fobbex, input_keyword.value.value);
 });

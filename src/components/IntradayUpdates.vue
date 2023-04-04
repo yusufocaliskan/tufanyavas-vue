@@ -4,19 +4,7 @@
       <a
         class="flex justify-center w-1/2 items-center text-[#39769f] border-b-[3px] border-[#39769f] p-6 text-sm font-bold"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="14"
-          height="16"
-          viewBox="0 0 14 16"
-          class="mdl-js mr-1"
-        >
-          <path
-            fill="#39769F"
-            fill-rule="nonzero"
-            d="M13.266 6.118a.67.67 0 0 0-.598-.357H6.412L7.996.711a.637.637 0 0 0-.413-.664.682.682 0 0 0-.778.203L.138 8.57a.619.619 0 0 0-.07.673.67.67 0 0 0 .6.358h6.255l-1.584 5.05a.637.637 0 0 0 .413.664.686.686 0 0 0 .778-.204l6.666-8.32a.62.62 0 0 0 .07-.673z"
-          />
-        </svg>
+        <ThuderBoltIcon />
         Intraday Updates
       </a>
     </div>
@@ -39,11 +27,15 @@
     </div>
 
     <div class="intraday-searchbox flex p-3">
-      <!-- <SearchBox :data="input_data" inputClass="w-full p-3 bg-gray-200" />-->
+      <SearchBox
+        @search_for="search_for"
+        :data="input_keyword"
+        class="w-full p-3 bg-gray-200"
+      />
     </div>
 
     <div
-      v-for="item in Fobbex"
+      v-for="item in list_data"
       :key="item.id"
       class="intraday-post p-5 border-b-[1px] border-gray-200"
     >
@@ -101,20 +93,7 @@
               21h
             </span>
             <span class="absolute right-1 bottom-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                viewBox="0 0 14 14"
-                class="mdl-js"
-              >
-                <g fill="none" fill-rule="evenodd">
-                  <path fill="#3583A7" d="M0 0h14v14H0z" />
-                  <g stroke="#FFF">
-                    <path d="M7 3.5v7M3.5 7h7" />
-                  </g>
-                </g>
-              </svg>
+              <FXIcon />
             </span>
           </div>
         </div>
@@ -123,13 +102,20 @@
   </div>
 </template>
 <script setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import SearchBox from "./SearchBox.vue";
 import FXIcon from "./icons/FXIcon.vue";
 import PlusIcon from "./icons/PlusIcon.vue";
+import ThuderBoltIcon from "./icons/ThuderBoltIcon.vue";
 import Fobbex from "../store/fobbex.json";
+import { filteredItems } from "../utils/helper";
 
-const input_data = ref({ value: "" });
+const input_keyword = ref({ value: "" });
+let list_data = ref(Fobbex);
+
+const search_for = computed(() => {
+  list_data = filteredItems(Fobbex, input_keyword.value.value);
+});
 
 /**
  * Image url bozuksa

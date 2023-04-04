@@ -85,7 +85,7 @@ import Star from "../components/icons/Star.vue";
 import StarFilled from "../components/icons/StarFilled.vue";
 import NoResult from "../components/icons/NoResult.vue";
 import BackArrow from "../components/icons/BackArrow.vue";
-
+import { filteredItems } from "../utils/helper";
 //Instrumentslerden arama yapıldığında.
 //veriyi tutar
 const input_data = ref({
@@ -103,16 +103,6 @@ const search_for = computed(() => {
 function go_back() {
   input_data.value.value = "";
   list_data = ref(Fobbex);
-}
-
-/**
- * Keyword'e göre filtler..
- * @param {string} keyword aranacak kelime
- */
-function filteredItems(data, keyword) {
-  return data.filter((item) => {
-    return item.name.toLowerCase().includes(keyword.toLowerCase());
-  });
 }
 
 //Modal'ı kontrol eder

@@ -1,6 +1,8 @@
 <template>
-  <div class="modal" v-if="isModalActive == true">
-    <div class="modal-wrapper shadow-md rounded-sm">
+  <div class="modal bg-[#ffffffb3]" v-if="isModalActive == true">
+    <div
+      class="modal-wrapper shadow-md rounded-sm bg-[#f0f8ff] dark:bg-[#34393e]"
+    >
       <CloseIcon
         class="absolute right-5 top-5 w-[30px] h-[30px] text-gray-500 hover:text-red-400 cursor-pointer"
         @click="close"
@@ -38,7 +40,6 @@ export default {
 
 <style scoped>
 .modal {
-  background-color: hsla(0, 0%, 100%, 0.7);
   position: fixed;
   top: 0;
   left: 0;
@@ -54,6 +55,5 @@ export default {
   /* max-width: 1120px; */
   margin: 0 auto;
   position: relative;
-  background-color: aliceblue;
 }
 </style>

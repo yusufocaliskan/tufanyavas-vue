@@ -2,7 +2,7 @@
   <div
     v-for="item in intradayUpdates"
     :key="item"
-    class="intraday-post flex p-10 mb-5 border-b-[1px] border-b-gray-200"
+    class="intraday-post flex p-10 mb-5 border-b-[1px] border-b-gray-200 dark:bg-[#34393e]"
   >
     <div class="w-1/2">
       <div class="post-title flex items-center">

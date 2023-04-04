@@ -1,5 +1,5 @@
 <template>
-  <div id="content" class="flex flex-wrap">
+  <div id="content" class="flex flex-wrap dark:bg-[#34393e]">
     <div
       class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen"
     >
@@ -7,36 +7,41 @@
         <!-- Sub Categories -->
         <div class="content-wrapper flex">
           <div
-            class="content-menu hidden border-r-[1px] lg:block lg:w-1/5 h-screen overflow-y-auto"
+            class="content-menu hidden border-r-[1px] border-gray-600 lg:block lg:w-1/5 h-screen overflow-y-auto"
           >
             <!-- <Instruments @postId="handlePostId" /> -->
             <!-- Search-box -->
             <SearchBox
               @search_for="search_for"
               :data="input_data"
-              class="p-4 outline-none border-b-[1px]"
+              class="p-4 outline-none border-b-[1px] dark:border-gray-600 dark:bg-[#454a4f]"
             />
             <!--end: search-box -->
-            <div class="instruments left-content-menu flex overflow-y-auto">
+            <div
+              class="instruments left-content-menu flex overflow-y-auto dark:bg-[#34393e]"
+            >
               <ul class="flex flex-col w-50">
                 <li @click="go_back" v-if="input_data.value != ''">
                   <a
-                    class="text-sm cursor-pointer flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
+                    class="text-sm cursor-pointer dark:text-white flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
                     href="#"
                   >
                     <BackArrow class="mr-5" /> GO BACK</a
                   >
                 </li>
                 <li
-                  class="flex border-b-[1px] items-center text-sm bg-white hover:bg-[#3d88aa] hover:text-white"
+                  class="flex border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-500 hover:bg-[#3d88aa] hover:text-white"
                   @click.prevent="setPostIndex(index)"
                   v-for="(item, index) in list_data"
                   :key="item.id"
                 >
                   <!-- <Star v-if="item.stared == false" />
-        <StarFilled v-if="item.stared == true" /> -->
+                  <StarFilled v-if="item.stared == true" /> -->
 
-                  <a class="flex font-bold w-60 text-neutral-900 p-4" href="#">
+                  <a
+                    class="flex font-bold w-60 dark:text-white text-neutral-900 p-4"
+                    href="#"
+                  >
                     {{ item.name }}</a
                   >
                 </li>
@@ -60,7 +65,7 @@
       <!-- main:content -->
     </div>
     <div
-      class="right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5]"
+      class="right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5] dark:bg-[#34393e] dark:border-l-[1px] dark:border-gray-600"
     >
       <IntradayUpdates />
     </div>

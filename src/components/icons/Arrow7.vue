@@ -18,7 +18,7 @@
       <g
         id="bias2"
         transform="translate(8.500000, 4.000000) scale(1, -1) translate(-8.500000, -4.000000) translate(1.000000, 0.000000)"
-        stroke="#353B40"
+        :stroke="isDark ? 'white' : '#353B40'"
         stroke-width="1.17"
       >
         <polyline
@@ -30,3 +30,7 @@
     </g>
   </svg>
 </template>
+<script setup>
+import { useDark } from "@vueuse/core";
+const isDark = useDark();
+</script>

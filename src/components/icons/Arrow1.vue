@@ -11,7 +11,7 @@
       data-v-2dc54a20=""
       fill="none"
       fill-rule="evenodd"
-      stroke="#353B40"
+      :stroke="isDark ? 'white' : '#353B40'"
       stroke-width="2.028"
     >
       <path
@@ -23,3 +23,8 @@
     </g>
   </svg>
 </template>
+
+<script setup>
+import { useDark } from "@vueuse/core";
+const isDark = useDark();
+</script>

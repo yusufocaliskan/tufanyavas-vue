@@ -1,6 +1,8 @@
 <template>
   <Disclosure as="nav" class="bg-white dark:bg-[#34393e]" v-slot="{ open }">
-    <div class="border-b-2 border-gray-100 mx-auto px-20 sm:px-6 lg:px-8">
+    <div
+      class="border-b-2 border-gray-100 dark:border-[#212326] mx-auto px-20 sm:px-6 lg:px-8"
+    >
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -32,9 +34,9 @@
               <router-link
                 v-for="item in navigation"
                 :key="item.name"
-                exact-active-class="py-5 border-b-[3px] text-[#3583a7] border-[#3583a7]"
+                exact-active-class="py-5 border-b-[3px] text-[#3583a7] border-[#3583a7] dark:text-[#51a4dc] dark:border-[#51a4dc] dark:text-[#51a4dc]"
                 :to="item.href"
-                :class="'py-5 px-10 text-sm font-medium text-black hover:text-[#3583a7] hover:border-b-[3px] hover:border-[#3583a7]'"
+                class="py-5 px-10 text-sm font-medium text-black hover:text-[#3583a7] hover:border-b-[3px] hover:border-[#3583a7] dark:text-white"
                 :aria-current="item.current ? 'page' : undefined"
                 >{{ item.name }}</router-link
               >
@@ -94,7 +96,9 @@
                   src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                   alt=""
                 />
-                <span class="hidden lg:block md:block">Özgür Bulut</span>
+                <span class="hidden lg:block md:block dark:text-white"
+                  >Özgür Bulut</span
+                >
               </MenuButton>
             </div>
             <transition
@@ -106,14 +110,14 @@
               leave-to-class="transform opacity-0 scale-95"
             >
               <MenuItems
-                class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                class="dark:bg-[#34393e] absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
               >
                 <MenuItem v-slot="{ active }">
                   <a
                     href="#"
                     :class="[
                       active ? 'bg-gray-100' : '',
-                      'block px-4 py-2 text-sm text-gray-700',
+                      'block px-4 py-2 text-sm text-gray-700 dark:text-white  dark:hover:bg-black',
                     ]"
                     >Your Profile</a
                   >
@@ -123,7 +127,7 @@
                     href="#"
                     :class="[
                       active ? 'bg-gray-100' : '',
-                      'block px-4 py-2 text-sm text-gray-700',
+                      'block px-4 py-2 text-sm text-gray-700  dark:text-white dark:hover:bg-black',
                     ]"
                     >Settings</a
                   >
@@ -133,7 +137,7 @@
                     href="#"
                     :class="[
                       active ? 'bg-gray-100' : '',
-                      'block px-4 py-2 text-sm text-gray-700',
+                      'block px-4 py-2 text-sm text-gray-700  dark:text-white  dark:hover:bg-black',
                     ]"
                     >Sign out</a
                   >

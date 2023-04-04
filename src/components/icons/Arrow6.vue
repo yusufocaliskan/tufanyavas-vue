@@ -18,7 +18,7 @@
       <g
         id="bias3"
         transform="translate(7.500000, 3.000000) scale(1, -1) translate(-7.500000, -3.000000) "
-        stroke="#353B40"
+        :stroke="isDark ? 'white' : '#353B40'"
         stroke-width="1.17"
       >
         <polyline id="Path" points="10 0 14.03 0 14.03 3.981" />
@@ -27,3 +27,7 @@
     </g>
   </svg>
 </template>
+<script setup>
+import { useDark } from "@vueuse/core";
+const isDark = useDark();
+</script>

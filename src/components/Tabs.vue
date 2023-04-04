@@ -5,14 +5,14 @@
       :key="item.id"
       :class="
         activeTabIndex === index
-          ? 'w-[115px] cursor-pointer bg-[#3d88aa] text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]'
-          : 'w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px]'
+          ? 'w-[115px] cursor-pointer bg-[#3d88aa] text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px] dark:border-gray-600'
+          : 'w-[115px] cursor-pointer hover:bg-[#3d88aa] hover:text-white border-gray-100 items-center px-2 border-[1px] inline-flex h-[45px] dark:border-gray-600'
       "
       @click.prevent="activeTabIndex = index"
     >
       <div class="tab-left w-2/3 flex flex-col">
-        <span class="text-xs font-bold">{{ item.title }}</span>
-        <span class="text-xs font-thin">{{
+        <span class="text-xs font-bold dark:text-white">{{ item.title }}</span>
+        <span class="text-xs font-thin dark:text-gray-300">{{
           timeAgo(item.created_at, true)
         }}</span>
       </div>
@@ -47,6 +47,7 @@ import Arrow7 from "./icons/Arrow7.vue";
 import Arrow8 from "./icons/Arrow8.vue";
 import { ref } from "vue";
 import { timeAgo } from "../utils/helper";
+
 const biasArrowsMap = {
   bias9: Arrow1,
   bias1: Arrow1,

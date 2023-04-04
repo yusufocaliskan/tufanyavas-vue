@@ -2,10 +2,10 @@
   <Modal :isModalActive="isModalActive" @close="isModalActive = false">
     <IntradayUpdateModalPost :intradayUpdates="intraday_updates" />
   </Modal>
-  <div class="flex sm:block border-[1px] border-b-gray">
+  <div class="flex sm:block border-[1px] border-b-gray dark:border-gray-600">
     <div class="flex space-x-4">
       <a
-        class="flex justify-center w-1/2 items-center text-[#39769f] border-b-[3px] border-[#39769f] p-6 text-sm font-bold"
+        class="flex justify-center w-1/2 items-center text-[#39769f] border-b-[3px] border-[#39769f] p-6 text-sm font-bold dark:text-[#51a4dc]"
       >
         <ThuderBoltIcon />
         Intraday Updates
@@ -33,14 +33,14 @@
       <SearchBox
         @search_for="search_for"
         :data="input_keyword"
-        class="w-full p-3 bg-gray-200"
+        class="w-full p-3 bg-gray-200 dark:bg-[#454a4f]"
       />
     </div>
 
     <div
       v-for="item in list_data"
       :key="item.id"
-      class="intraday-post p-5 border-b-[1px] border-gray-200"
+      class="intraday-post p-5 border-b-[1px] border-gray-200 dark:border-gray-600"
     >
       <div class="flex post-header items-center">
         <div class="flex w-4/5 space-x-3 items-center">

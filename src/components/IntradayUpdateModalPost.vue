@@ -23,7 +23,9 @@
         remLorem LoremLoremLorem LoremLoremLoremLo remLorem
       </div>
     </div>
-    <div class="w-1/2"><img src="eurusd.png" /></div>
+    <div class="w-1/2">
+      <img src="eurusd.png" />
+    </div>
   </div>
 </template>
 <script setup>

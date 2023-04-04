@@ -88,4 +88,7 @@ function brokenImage(event) {
 .title-arrow:hover .hidden {
   display: block;
 }
+img[lazy="loading"] {
+  width: 30px;
+}
 </style>

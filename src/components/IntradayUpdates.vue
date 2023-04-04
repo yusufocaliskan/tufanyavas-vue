@@ -63,12 +63,21 @@
           <div
             class="intraday-graphic relative flex w-[80px] h-[70px] cursor-pointer border-[1px] border-gray-200 rounded over"
           >
-            <img
-              :src="item.charts[0].chart_url"
-              @error="brokenImage"
-              class="w-[80px] h-[70px]"
-              @click.prevent="openModal(item.intraday_updates)"
-            />
+            <div
+              class="flex items-center justify-center"
+              v-lazy-container="{
+                selector: 'img',
+                error: 'no-image.jpg',
+                loading: 'loading.gif',
+              }"
+            >
+              <img
+                :data-src="item.charts[0].chart_url"
+                @error="brokenImage"
+                class="w-[80px] h-[70px]"
+                @click.prevent="openModal(item.intraday_updates)"
+              />
+            </div>
             <span
               class="text-[#3583a7] text-xs font-bold absolute top-1 left-1"
               >{{ item.charts[0].title }}</span
@@ -132,3 +141,9 @@ function brokenImage(event) {
   event.target.src = "no-image.jpg";
 }
 </script>
+
+<style scope>
+img[lazy="loading"] {
+  width: 100%;
+}
+</style>

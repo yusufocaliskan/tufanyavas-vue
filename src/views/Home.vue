@@ -1,6 +1,6 @@
 <template>
-  <!-- <div class="top-mobile-menu lg:hidden md:hidden"> -->
-  <div class="top-mobile-menu">
+  <div class="top-mobile-menu lg:hidden md:hidden">
+    <!-- <div class="top-mobile-menu"> -->
     <div class="flex">
       <div class="w-10/12">
         <div

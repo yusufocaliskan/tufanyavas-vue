@@ -16,16 +16,19 @@
           class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
         >
           <div class="flex flex-shrink-0 items-center">
-            <img
-              class="block h-5 w-auto lg:hidden"
-              src="https://app.wavetraders.com/img/logo-wave.d0839793.svg"
-              alt="Tufan Yavas"
-            />
-            <img
-              class="hidden h-5 w-auto lg:block"
-              src="https://app.wavetraders.com/img/logo-wave.d0839793.svg"
-              alt="Tufan Yavas"
-            />
+            <router-link to="/">
+              <img
+                class="block h-5 w-auto lg:hidden"
+                src="https://app.wavetraders.com/img/logo-wave.d0839793.svg"
+                alt="Tufan Yavas"
+            /></router-link>
+            <router-link to="/">
+              <img
+                class="hidden h-5 w-auto lg:block"
+                src="https://app.wavetraders.com/img/logo-wave.d0839793.svg"
+                alt="Tufan Yavas"
+              />
+            </router-link>
           </div>
           <div class="hidden flex-auto sm:ml-6 sm:block">
             <div class="flex justify-center space-x-4">

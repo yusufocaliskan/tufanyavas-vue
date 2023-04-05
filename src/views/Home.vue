@@ -76,7 +76,10 @@
     </div>
   </div>
 
-  <div id="content" class="flex flex-wrap dark:bg-[#34393e]">
+  <div
+    id="content"
+    class="flex flex-wrap max-w-[1700px] m-auto dark:bg-[#34393e]"
+  >
     <div
       id="intraday-updates"
       class="intraday-updates right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5] dark:bg-[#34393e] dark:border-r-[1px] dark:border-gray-600"

@@ -16,7 +16,7 @@
             <div
               class="instruments left-content-menu flex overflow-y-auto dark:bg-[#34393e]"
             >
-              <ul class="flex flex-col w-50">
+              <ul class="flex flex-col w-full">
                 <li @click="go_back" v-if="input_data.value != ''">
                   <a
                     class="text-sm cursor-pointer dark:text-white flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
@@ -31,9 +31,8 @@
                   v-for="(item, index) in list_data"
                   :key="item.id"
                 >
-                  <!-- <Star v-if="item.stared == false" />
-                  <StarFilled v-if="item.stared == true" /> -->
-
+                  <Star />
+                  <!-- <StarFilled /> -->
                   <a
                     class="flex font-bold w-60 dark:text-white text-neutral-900 p-4"
                     href="#"
@@ -68,15 +67,24 @@
       </div>
     </div>
   </div>
+
   <div id="content" class="flex flex-wrap dark:bg-[#34393e]">
+    <div
+      id="intraday-updates"
+      class="intraday-updates right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5] dark:bg-[#34393e] dark:border-r-[1px] dark:border-gray-600"
+    >
+      <IntradayUpdates />
+    </div>
     <div
       class="left-content-side flex flex-wrap lg:w-2/3 md:w-2/3 xl:w-2/3 w-full h-screen"
     >
       <div class="main-content flex-row w-full overflow-y-auto">
         <!-- Sub Categories -->
         <div class="content-wrapper flex">
+          <PostSection ref="postSection" />
+          <!-- content-wrapper-->
           <div
-            class="content-menu hidden border-r-[1px] border-gray-600 lg:block lg:w-1/5 h-screen overflow-y-auto"
+            class="content-menu hidden border-l-[1px] border-gray-600 lg:block lg:w-1/5 h-screen overflow-y-auto"
           >
             <!-- <Instruments @postId="handlePostId" /> -->
             <!-- Search-box -->
@@ -89,7 +97,7 @@
             <div
               class="instruments left-content-menu flex overflow-y-auto dark:bg-[#34393e]"
             >
-              <ul class="flex flex-col w-50">
+              <ul class="flex flex-col w-full">
                 <li @click="go_back" v-if="input_data.value != ''">
                   <a
                     class="text-sm cursor-pointer dark:text-white flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
@@ -99,20 +107,30 @@
                   >
                 </li>
                 <li
-                  class="flex border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-500 hover:bg-[#3d88aa] hover:text-white"
-                  @click.prevent="setPostIndex(index)"
+                  class="flex w-full border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-500 hover:bg-[#3d88aa] hover:text-white"
                   v-for="(item, index) in list_data"
                   :key="item.id"
                 >
-                  <!-- <Star v-if="item.stared == false" />
-                  <StarFilled v-if="item.stared == true" /> -->
+                  <div class="flex w-1/4">
+                    <Star
+                      v-if="!favoritedItems[item.id]"
+                      @click="setItem2Favorites(item.id)"
+                    />
+                    <StarFilled
+                      v-if="favoritedItems[item.id]"
+                      @click="removeItemFromFavorites(item.id)"
+                    />
+                  </div>
 
-                  <a
-                    class="flex font-bold w-60 dark:text-white text-neutral-900 p-4"
-                    href="#"
-                  >
-                    {{ item.name }}</a
-                  >
+                  <div class="flex w-3/4">
+                    <a
+                      class="flex text-start max-w-full font-bold dark:text-white text-neutral-900 p-4"
+                      href="#"
+                      @click.prevent="setPostIndex(index, item)"
+                    >
+                      {{ item.name }}</a
+                    >
+                  </div>
                 </li>
 
                 <li class="flex" v-if="list_data.length == 0">
@@ -125,20 +143,12 @@
               </ul>
             </div>
           </div>
-
-          <PostSection ref="postSection" />
-          <!-- content-wrapper-->
         </div>
         <!-- content:menu -->
       </div>
       <!-- main:content -->
     </div>
-    <div
-      id="intraday-updates"
-      class="right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5] dark:bg-[#34393e] dark:border-l-[1px] dark:border-gray-600"
-    >
-      <IntradayUpdates />
-    </div>
+
     <!-- Intraday Updates -->
   </div>
 </template>
@@ -163,6 +173,8 @@ import BackArrow from "../components/icons/BackArrow.vue";
 import { filteredItems } from "../utils/helper";
 import ArrowDown from "../components/icons/ArrowDown.vue";
 import ThunderBoltIcon from "../components/icons/ThunderBoltIcon.vue";
+
+let favoritedItems = ref([]);
 //Instrumentslerden arama yapıldığında.
 //veriyi tutar
 const input_data = ref({
@@ -218,3 +230,21 @@ function setIntradayUpdates(updates) {
 // const sub_categories = computed(() => store.state.sub_categories);
 // const left_categories = computed(() => store.state.left_categories);
 </script>
+<style scope>
+@media (max-width: 480px) {
+  .left-content-side {
+    order: 1;
+  }
+  .intraday-updates {
+    order: 2;
+  }
+}
+@media (max-width: 767px) {
+  .left-content-side {
+    order: 1;
+  }
+  .intraday-updates {
+    order: 2;
+  }
+}
+</style>

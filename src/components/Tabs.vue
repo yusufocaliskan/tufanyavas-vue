@@ -40,7 +40,8 @@
       <img
         :data-src="data[activeTabIndex].chart_url"
         @error="brokenImage"
-        class="mt-10"
+        class="mt-10 cursor-pointer"
+        @click="$emit('imagePreview', data)"
       />
     </div>
   </div>
@@ -57,6 +58,7 @@ import Arrow8 from "./icons/Arrow8.vue";
 import { ref } from "vue";
 import { timeAgo } from "../utils/helper";
 
+const emit = defineEmits(["imagePreview"]);
 const biasArrowsMap = {
   bias9: Arrow1,
   bias1: Arrow1,

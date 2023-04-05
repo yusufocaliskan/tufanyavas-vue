@@ -2,6 +2,12 @@
   <Modal :isModalActive="isModalActive" @close="isModalActive = false">
     <IntradayUpdateModalPost :intradayUpdates="intraday_updates" />
   </Modal>
+  <Modal
+    :isModalActive="isImageModalPreviewActive"
+    @close="isImageModalPreviewActive = false"
+  >
+    <Tabs :data="imageModalData" />
+  </Modal>
   <div class="flex sm:block border-[1px] border-b-gray dark:border-gray-600">
     <div class="flex space-x-4">
       <a
@@ -43,13 +49,13 @@
       class="intraday-post p-5 border-b-[1px] border-gray-200 dark:border-gray-600"
     >
       <div class="flex post-header items-center">
-        <div class="flex w-4/5 space-x-3 items-center">
+        <div class="flex w-2/5 space-x-3 items-center">
           <h1 class="font-bold">{{ item.name }}</h1>
           <FXIcon />
         </div>
-        <div class="w-1/5">
+        <div class="w-3/5">
           <span class="flex text-sm text-gray-500 intraday-post-time">{{
-            timeAgo(item.published_to_iu_at)
+            convertedDate(item.published_to_iu_at)
           }}</span>
         </div>
       </div>
@@ -75,7 +81,7 @@
                 :data-src="item.charts[0].chart_url"
                 @error="brokenImage"
                 class="w-[80px] h-[70px]"
-                @click.prevent="openModal(item.intraday_updates)"
+                @click.prevent="openImagePreview(item.charts)"
               />
             </div>
             <span
@@ -88,7 +94,7 @@
               21h
             </span>
             <span class="absolute right-1 bottom-1">
-              <PlusIcon />
+              <PlusIcon @click.prevent="openModal(item.intraday_updates)" />
             </span>
           </div>
         </div>
@@ -106,10 +112,15 @@ import Fobbex from "../store/fobbex.json";
 import { filteredItems } from "../utils/helper";
 import Modal from "./Modal.vue";
 import IntradayUpdateModalPost from "./IntradayUpdateModalPost.vue";
-import { timeAgo } from "../utils/helper";
+import { convertedDate } from "../utils/helper";
+import Tabs from "./Tabs.vue";
 //------------- Modal -------------
 const isModalActive = ref(false);
 const intraday_updates = ref([]);
+
+const isImageModalPreviewActive = ref(false);
+const imageModalData = ref([]);
+
 /**
  * Modal'ı aç ve verileri göster.
  * @param {object} updates
@@ -117,6 +128,15 @@ const intraday_updates = ref([]);
 function openModal(updates) {
   isModalActive.value = true;
   intraday_updates.value = updates;
+}
+
+/**
+ * Resmin üzerine tıklandığında ön izlem yapar.
+ * @param {object} charts image önizlem
+ */
+function openImagePreview(charts) {
+  isImageModalPreviewActive.value = true;
+  imageModalData.value = charts;
 }
 
 //------------------ Searching -------------

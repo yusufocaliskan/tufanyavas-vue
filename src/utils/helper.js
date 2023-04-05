@@ -30,3 +30,22 @@ export function timeAgo(time, short = false) {
     return short ? `${days}d` : `${days} days ago`;
   }
 }
+
+export function convertedDate(rawDate) {
+  const date = new Date(rawDate);
+  const options = {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZone: "UTC",
+    timeZoneName: "short",
+  };
+  const formattedDate = date.toLocaleDateString("en-US", options);
+  const timeZoneOffset = date.getTimezoneOffset() / 60;
+  const utcOffset =
+    timeZoneOffset < 0 ? `+${Math.abs(timeZoneOffset)}` : `-${timeZoneOffset}`;
+  const finalDate = `${formattedDate} (UTC ${utcOffset})`;
+  return finalDate;
+}

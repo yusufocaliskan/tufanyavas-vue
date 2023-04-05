@@ -2,6 +2,13 @@
   <Modal :isModalActive="isModalActive" @close="isModalActive = false">
     <IntradayUpdateModalPost :intradayUpdates="intraday_updates" />
   </Modal>
+  <Modal
+    :isModalActive="isImageModalPreviewActive"
+    @close="isImageModalPreviewActive = false"
+  >
+    <Tabs :data="imageModalData" />
+  </Modal>
+
   <div
     class="content-right p-10 w-full h-screen overflow-y-auto"
     ref="postContainer"
@@ -10,7 +17,7 @@
       <div
         v-for="item in Fobbex"
         :key="item.id"
-        class="post post-{{item.id}} flex border-b-[1px] pb-10 mb-10"
+        class="post post-{{item.id}} border-gray-600 flex border-b-[1px] pb-10 mb-10"
         ref="postList"
       >
         <div class="post-left w-full">
@@ -35,7 +42,7 @@
           </div>
           <div class="post-body text-gray-700">
             <div class="tabs">
-              <Tabs :data="item.charts" />
+              <Tabs :data="item.charts" @imagePreview="openImagePreviewModal" />
             </div>
             <div class="flex mt-5">
               <a
@@ -82,6 +89,9 @@ import { timeAgo } from "../utils/helper";
 const intraday_updates = ref([]);
 const isModalActive = ref(false);
 
+const imageModalData = ref([]);
+const isImageModalPreviewActive = ref(false);
+
 const emit = defineEmits(["scroll2ThePost", "intradayUpdates"]);
 const postList = ref();
 const postContainer = ref();
@@ -126,6 +136,15 @@ defineExpose({
 function openModal(updates) {
   isModalActive.value = true;
   intraday_updates.value = getData(updates);
+}
+
+/**
+ * Image'i preview
+ * @param {object} charts data
+ */
+function openImagePreviewModal(charts) {
+  isImageModalPreviewActive.value = true;
+  imageModalData.value = charts;
 }
 
 /**

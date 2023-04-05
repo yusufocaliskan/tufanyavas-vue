@@ -1,7 +1,7 @@
 <template>
   <Disclosure as="nav" class="bg-white dark:bg-[#34393e]" v-slot="{ open }">
     <div
-      class="border-b-2 border-gray-100 dark:border-[#212326] mx-auto px-20 sm:px-6 lg:px-8"
+      class="border-b-2 border-gray-100 dark:border-[#212326] mx-auto px-5 sm:px-6 lg:px-8"
     >
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">

@@ -49,20 +49,23 @@
       class="intraday-post p-5 border-b-[1px] border-gray-200 dark:border-gray-600"
     >
       <div class="flex post-header items-center">
-        <div class="flex w-2/5 space-x-3 items-center">
+        <div class="flex w-2/3 space-x-3 items-center">
           <h1 class="font-bold">{{ item.name }}</h1>
           <FXIcon />
         </div>
-        <div class="w-3/5">
+        <div class="w-1/3">
           <span class="flex text-sm text-gray-500 intraday-post-time">{{
-            convertedDate(item.published_to_iu_at)
+            timeAgo(item.published_to_iu_at)
           }}</span>
         </div>
       </div>
       <div class="intraday-post-body flex mt-3">
-        <div class="flex w-full text-sm">
+        <div class="flex w-2/3 text-sm">
+          <p>Updated on 27.03.2023 – 16:42 (UTC +1)</p>
+        </div>
+        <div class="flex w-1/3 text-sm">
           <div
-            class="intraday-graphic relative flex cursor-pointer border-[1px] border-gray-200 rounded over"
+            class="intraday-graphic relative flex w-[80px] h-[70px] cursor-pointer border-[1px] border-gray-200 rounded over"
           >
             <div
               class="flex items-center justify-center"
@@ -75,7 +78,7 @@
               <img
                 :data-src="item.charts[0].chart_url"
                 @error="brokenImage"
-                class=""
+                class="w-[80px] h-[70px]"
                 @click.prevent="openImagePreview(item.charts)"
               />
             </div>
@@ -104,7 +107,7 @@ import FXIcon from "./icons/FXIcon.vue";
 import PlusIcon from "./icons/PlusIcon.vue";
 import ThunderBoltIcon from "./icons/ThunderBoltIcon.vue";
 import Fobbex from "../store/fobbex.json";
-import { filteredItems } from "../utils/helper";
+import { filteredItems, timeAgo } from "../utils/helper";
 import Modal from "./Modal.vue";
 import IntradayUpdateModalPost from "./IntradayUpdateModalPost.vue";
 import { convertedDate } from "../utils/helper";

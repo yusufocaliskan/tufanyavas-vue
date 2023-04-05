@@ -57,7 +57,8 @@
             :isModalActive="isIntradayUpdatesModalActive"
             @close="isIntradayUpdatesModalActive = false"
           >
-            <IntradayUpdateModalPost :intradayUpdates="intraday_updates" />
+            <IntradayUpdates :isMobile="true" />
+            <!-- <IntradayUpdateModalPost :intradayUpdates="intraday_updates" /> -->
           </Modal>
         </div>
       </div>
@@ -81,7 +82,7 @@
     class="flex flex-wrap max-w-[1700px] m-auto dark:bg-[#34393e]"
   >
     <div
-      id="intraday-updates"
+      id="intraday-updates "
       class="intraday-updates right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5] dark:bg-[#34393e] dark:border-r-[1px] dark:border-gray-600"
     >
       <IntradayUpdates />

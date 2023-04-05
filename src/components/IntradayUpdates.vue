@@ -8,7 +8,10 @@
   >
     <Tabs :data="imageModalData" />
   </Modal>
-  <div class="flex sm:block border-[1px] border-b-gray dark:border-gray-600">
+  <div
+    v-if="isMobile == false"
+    class="flex sm:block border-[1px] border-b-gray dark:border-gray-600"
+  >
     <div class="flex space-x-4">
       <a
         class="flex justify-center w-2/2 items-center text-[#39769f] border-b-[3px] border-[#39769f] p-6 text-sm font-bold dark:text-[#51a4dc]"
@@ -21,7 +24,10 @@
   <!-- Intraday-Header -->
 
   <div class="intraday-body flex flex-col">
-    <div class="flex items-center pl-3 intraday-checkbox">
+    <div
+      v-if="isMobile == false"
+      class="flex items-center pl-3 intraday-checkbox"
+    >
       <input
         id="vue-checkbox-list"
         type="checkbox"
@@ -113,6 +119,9 @@ import IntradayUpdateModalPost from "./IntradayUpdateModalPost.vue";
 import { convertedDate } from "../utils/helper";
 import Tabs from "./Tabs.vue";
 
+const probs = defineProps({
+  isMobile: { type: Boolean, default: false },
+});
 //------------- Modal -------------
 const isModalActive = ref(false);
 const intraday_updates = ref([]);

@@ -1,7 +1,7 @@
 <template>
   <div class="modal bg-[#ffffffb3]" v-if="isModalActive == true">
     <div
-      class="modal-wrapper border-[1px] border-gray-200 shadow-md rounded-sm bg-[#ffffff] dark:bg-[#34393e]"
+      class="modal-wrapper pt-5 border-[1px] border-gray-200 shadow-md rounded-sm bg-[#ffffff] dark:bg-[#34393e]"
     >
       <CloseIcon
         class="absolute right-5 top-5 w-[30px] h-[30px] text-gray-500 hover:text-red-400 cursor-pointer"

@@ -20,14 +20,14 @@
               <ul class="flex flex-col w-full">
                 <li @click="go_back" v-if="input_data.value != ''">
                   <a
-                    class="text-sm cursor-pointer dark:text-white flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] text-neutral-900 p-4"
+                    class="text-sm cursor-pointer dark:text-white flex w-60 hover:bg-gray-500 hover:text-white font-bold border-b-[1px] dark:border-gray-600 text-neutral-900 p-4"
                     href="#"
                   >
                     <BackArrow class="mr-5" /> GO BACK</a
                   >
                 </li>
                 <li
-                  class="flex border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-500 hover:bg-[#3d88aa] hover:text-white"
+                  class="flex border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-600 hover:bg-[#3d88aa] hover:text-white"
                   @click.prevent="setPostIndex(index, item)"
                   v-for="(item, index) in list_data"
                   :key="item.id"
@@ -58,13 +58,12 @@
             @close="isIntradayUpdatesModalActive = false"
           >
             <IntradayUpdates :isMobile="true" />
-            <!-- <IntradayUpdateModalPost :intradayUpdates="intraday_updates" /> -->
           </Modal>
         </div>
       </div>
       <div class="w-2/12 bg-[#34393e]">
         <a
-          @click.prevent="openIntradayModalUpdates(Fobbex)"
+          @click.prevent="isIntradayUpdatesModalActive = true"
           class="open-mobile-intraday-updates relative items-center flex justify-center h-[100%] border-l-[1px] border-gray-600 border-b-[1px] cursor-pointer hover:bg-gray-500"
         >
           <span
@@ -83,7 +82,7 @@
   >
     <div
       id="intraday-updates "
-      class="intraday-updates right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5] dark:bg-[#34393e] dark:border-r-[1px] dark:border-gray-600"
+      class="intraday-updates right-side lg:w-1/3 md:w-1/3 xl:w-1/3 w-full h-screen overflow-y-auto bg-[#f0f3f5] dark:bg-[#282c2e] dark:border-r-[1px] dark:border-gray-600"
     >
       <IntradayUpdates />
     </div>
@@ -119,7 +118,7 @@
                   >
                 </li>
                 <li
-                  class="flex w-full border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] dark:border-gray-500 hover:bg-[#3d88aa] hover:text-white"
+                  class="flex w-full border-b-[1px] items-center text-sm bg-white dark:bg-[#34393e] dark:hover:bg-[#292a2c] hover:bg-[#3d88aa] hover:text-white dark:border-gray-600"
                   v-for="(item, index) in list_data"
                   :key="item.id"
                 >
@@ -160,16 +159,15 @@
 </template>
 
 <script setup>
-import { ref, computed, defineEmits, watch } from "vue";
+import { ref, computed } from "vue";
 
 //components
-import Navigation from "../components/Navigation.vue";
+// import Navigation from "../components/Navigation.vue";
 
 import PostSection from "../components/PostSection.vue";
 import IntradayUpdates from "../components/IntradayUpdates.vue";
 import Fobbex from "../store/fobbex.json";
 import Modal from "../components/Modal.vue";
-import IntradayUpdateModalPost from "../components/IntradayUpdateModalPost.vue";
 
 import SearchBox from "../components/SearchBox.vue";
 import Star from "../components/icons/Star.vue";
@@ -181,12 +179,6 @@ import ArrowDown from "../components/icons/ArrowDown.vue";
 import ThunderBoltIcon from "../components/icons/ThunderBoltIcon.vue";
 
 const isIntradayUpdatesModalActive = ref(false);
-const intraday_updates = ref([]);
-
-function openIntradayModalUpdates(data) {
-  isIntradayUpdatesModalActive.value = true;
-  intraday_updates.value = data;
-}
 
 //Instrumentslerden arama yapıldığında.
 //veriyi tutar

@@ -10,7 +10,7 @@
   </Modal>
   <div
     v-if="isMobile == false"
-    class="flex sm:block border-[1px] border-b-gray dark:border-gray-600"
+    class="flex sm:block border-[1px] border-r-0 border-t-0 border-b-gray dark:border-gray-600"
   >
     <div class="flex space-x-4">
       <a
@@ -24,10 +24,7 @@
   <!-- Intraday-Header -->
 
   <div class="intraday-body flex flex-col">
-    <div
-      v-if="isMobile == false"
-      class="flex items-center pl-3 intraday-checkbox"
-    >
+    <div class="flex items-center pl-3 mt-3 intraday-checkbox">
       <input
         id="vue-checkbox-list"
         type="checkbox"
@@ -118,10 +115,12 @@ import Modal from "./Modal.vue";
 import IntradayUpdateModalPost from "./IntradayUpdateModalPost.vue";
 import { convertedDate } from "../utils/helper";
 import Tabs from "./Tabs.vue";
+import BackArrow from "./icons/BackArrow.vue";
 
 const probs = defineProps({
   isMobile: { type: Boolean, default: false },
 });
+
 //------------- Modal -------------
 const isModalActive = ref(false);
 const intraday_updates = ref([]);

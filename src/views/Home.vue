@@ -1,5 +1,6 @@
 <template>
-  <div class="top-mobile-menu lg:hidden md:hidden">
+  <!-- <div class="top-mobile-menu lg:hidden md:hidden"> -->
+  <div class="top-mobile-menu">
     <div class="flex">
       <div class="w-10/12">
         <div
@@ -51,11 +52,18 @@
               </ul>
             </div>
           </Modal>
+
+          <Modal
+            :isModalActive="isIntradayUpdatesModalActive"
+            @close="isIntradayUpdatesModalActive = false"
+          >
+            <IntradayUpdateModalPost :intradayUpdates="intraday_updates" />
+          </Modal>
         </div>
       </div>
       <div class="w-2/12 bg-[#34393e]">
         <a
-          href="#intraday-updates"
+          @click.prevent="openIntradayModalUpdates(Fobbex)"
           class="open-mobile-intraday-updates relative items-center flex justify-center h-[100%] border-l-[1px] border-gray-600 border-b-[1px] cursor-pointer hover:bg-gray-500"
         >
           <span
@@ -112,14 +120,8 @@
                   :key="item.id"
                 >
                   <div class="flex w-1/4">
-                    <Star
-                      v-if="!favoritedItems[item.id]"
-                      @click="setItem2Favorites(item.id)"
-                    />
-                    <StarFilled
-                      v-if="favoritedItems[item.id]"
-                      @click="removeItemFromFavorites(item.id)"
-                    />
+                    <Star />
+                    <!-- <StarFilled/> -->
                   </div>
 
                   <div class="flex w-3/4">
@@ -174,7 +176,14 @@ import { filteredItems } from "../utils/helper";
 import ArrowDown from "../components/icons/ArrowDown.vue";
 import ThunderBoltIcon from "../components/icons/ThunderBoltIcon.vue";
 
-let favoritedItems = ref([]);
+const isIntradayUpdatesModalActive = ref(false);
+const intraday_updates = ref([]);
+
+function openIntradayModalUpdates(data) {
+  isIntradayUpdatesModalActive.value = true;
+  intraday_updates.value = data;
+}
+
 //Instrumentslerden arama yapıldığında.
 //veriyi tutar
 const input_data = ref({

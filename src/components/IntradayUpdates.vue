@@ -60,14 +60,9 @@
         </div>
       </div>
       <div class="intraday-post-body flex mt-3">
-        <div class="flex w-2/3 text-sm">
-          <p>
-            {{ item.bias.description }}
-          </p>
-        </div>
-        <div class="flex w-1/3 text-sm">
+        <div class="flex w-full text-sm">
           <div
-            class="intraday-graphic relative flex w-[80px] h-[70px] cursor-pointer border-[1px] border-gray-200 rounded over"
+            class="intraday-graphic relative flex cursor-pointer border-[1px] border-gray-200 rounded over"
           >
             <div
               class="flex items-center justify-center"
@@ -80,7 +75,7 @@
               <img
                 :data-src="item.charts[0].chart_url"
                 @error="brokenImage"
-                class="w-[80px] h-[70px]"
+                class=""
                 @click.prevent="openImagePreview(item.charts)"
               />
             </div>
@@ -114,6 +109,7 @@ import Modal from "./Modal.vue";
 import IntradayUpdateModalPost from "./IntradayUpdateModalPost.vue";
 import { convertedDate } from "../utils/helper";
 import Tabs from "./Tabs.vue";
+
 //------------- Modal -------------
 const isModalActive = ref(false);
 const intraday_updates = ref([]);

@@ -7,7 +7,7 @@
         class="absolute right-5 top-5 w-[30px] h-[30px] text-gray-500 hover:text-red-400 cursor-pointer"
         @click="close"
       />
-      <div class="modal-body p-10">
+      <div class="modal-body p-5">
         <slot></slot>
       </div>
     </div>
